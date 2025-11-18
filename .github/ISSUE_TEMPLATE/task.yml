@@ -7,13 +7,13 @@ body:
     attributes:
       value: |
         # Backlog Task
-        Use this for known work items (e.g., "Update Documentation", "Refactor Module").
+        Use this for known work items (e.g., "Update Workflow", "Refactor Module").
 
   - type: input
     id: title
     attributes:
       label: Task Title
-      placeholder: e.g., "Update AGENT_PANEL_WORKFLOW with Idea Logic"
+      placeholder: e.g., "Implement Idea Logic in Agent Workflow"
     validations:
       required: true
 
