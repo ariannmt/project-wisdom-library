@@ -1,0 +1,12 @@
+/distillations/
+/atomic/
+/process_memory/
+/analyses/
+/backlog/
+/ideas/
+/sensitive/
+/tools/
+/catalogue/
+*.pyc
+*.tmp
+.DS_Store
