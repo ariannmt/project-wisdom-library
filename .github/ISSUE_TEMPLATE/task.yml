@@ -1,0 +1,47 @@
+name: "📋 Backlog Task"
+description: "Submit a specific, actionable task directly to the project backlog."
+title: "[Task]: "
+labels: ["task", "backlog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Backlog Task
+        Use this for known work items (e.g., "Update Documentation", "Refactor Module").
+
+  - type: input
+    id: title
+    attributes:
+      label: Task Title
+      placeholder: e.g., "Update AGENT_PANEL_WORKFLOW with Idea Logic"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description & Acceptance Criteria
+      description: What needs to be done and how do we know it's finished?
+      placeholder: "Add the 'Idea Triage' section to Phase 1 of the workflow document..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
+        - "Critical"
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Task Type
+      options:
+        - "Process Improvement"
+        - "Documentation"
+        - "Refactoring"
+        - "Technical Debt"
