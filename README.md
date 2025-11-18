@@ -34,3 +34,19 @@ Welcome to the **Project Wisdom Library**—a centralized, AI-driven archive for
 3.  **Delivery:** Submit a Pull Request with the results.
 
 ## Repository Structure
+
+```
+project-wisdom-library/
+├── atomic/             # Level 1-2: Hard Facts & Forensics
+├── distillations/      # Level 4: Wisdom & Paradigms
+├── process_memory/     # Level 3: Epistemic History (JSON Protocol)
+├── backlog/            # Strategic & Tactical Actions
+├── catalogue/          # The Knowledge Graph (Manifest)
+├── templates/          # Standardized Input Patterns
+└── docs/               # The System Manual (Workflow & Schemas)
+```
+
+## Documentation Resources
+- **[Automation Guide](docs/AUTOMATION_GUIDE.md):** The "Source of Truth" for Agent execution.
+- **[Analysis Menu](docs/ANALYSIS_MENU.md):** The Wisdom Ladder definitions.
+- **[Manifest Schema](docs/MANIFEST_SCHEMA.md):** The Data Structure & Mapping Protocol.
