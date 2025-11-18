@@ -1,4 +1,12 @@
-# Distillations Folder
+# Long-Form Distillations (Level 4)
 
-Place all long-form conceptual distillation results in this folder. Use the standard template provided in `/templates/DISTILLATION_TEMPLATE.md`.
+This folder contains comprehensive conceptual distillations. These artifacts synthesize "Wisdom" and "Paradigms" by connecting multiple atomic analyses.
+
+## Scope
+- **Level 4 (Wisdom):** Meta-Pattern Synthesis, Paradigm Extraction.
+
+## Instructions
+- **Template:** Use `/templates/DISTILLATION_TEMPLATE.md`
+- **Requirement:** All submissions MUST include the **Abstraction & Wisdom** section (Mental Models, System Archetypes).
+- **Prerequisites:** You generally need Level 1-2 evidence (Atomic) before creating a Distillation.
 ---
