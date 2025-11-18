@@ -1,5 +1,5 @@
 name: "🧠 Conceptual Investigation Intake"
-description: "Initiate an autonomous AI investigation to distill wisdom, decisions, or architecture."
+description: "Initiate an autonomous AI investigation. You point, the Agent reasons."
 title: "[Intake]: "
 labels: ["investigation", "autonomous-agent"]
 body:
@@ -8,16 +8,13 @@ body:
       value: |
         # Project Wisdom Intake
         *This form triggers an autonomous agent investigation.*
-        
-        **Guidance:** The quality of the output depends entirely on the quality of your **Context**. Don't just say *what* to look at; explain *why* it matters to you.
 
   - type: dropdown
     id: analysis-type
     attributes:
       label: Investigation Depth
-      description: How deep should the agent go?
       options:
-        - "Atomic (Quick check, single specific question)"
+        - "Atomic (Quick check, specific question)"
         - "Long-Form (Deep distillation, multi-file synthesis)"
     validations:
       required: true
@@ -26,20 +23,16 @@ body:
     id: target
     attributes:
       label: Target (Repository or Document)
-      description: Link to the repo, PR, or document to analyze.
       placeholder: "https://github.com/my-org/my-repo"
     validations:
       required: true
 
-  - type: textarea
-    id: context
+  - type: input
+    id: subject
     attributes:
-      label: The "Why" & Strategic Context
-      description: |
-        CRITICAL: What is your core uncertainty? What decision are you trying to make? What is your frustration?
-        (The agent uses this to filter millions of lines of code. Be subjective!)
-      placeholder: |
-        "I am worried that our Auth service is becoming too complex for the new mobile team. I want to know if the original architects anticipated this pain..."
+      label: Subject / Theme
+      description: What are we looking at? (e.g., "The Payment Gateway", "The Auth Service", "The Team Culture")
+      placeholder: "Auth Service"
     validations:
       required: true
 
@@ -47,20 +40,21 @@ body:
     id: menu-items
     attributes:
       label: The Wisdom Ladder (Methodologies)
-      description: Which analysis tools should the agent apply?
+      description: Select the tools. The Agent will determine how to apply them to your Subject.
       options:
         - label: "Level 1: Hard Architecture Mapping (The Structure)"
-        - label: "Level 2: Decision Forensics (The History/Commit Logs)"
-        - label: "Level 2: Anti-Library Extraction (What failed/was discarded?)"
-        - label: "Level 3: Vision Alignment (Does code match intent?)"
-        - label: "Level 3: Process Memory (Capture the rationale)"
-        - label: "Level 4: Meta-Pattern Synthesis (Recurring themes)"
-        - label: "Level 4: Paradigm Extraction (Mental Models & Shifts)"
+        - label: "Level 2: Decision Forensics (The History)"
+        - label: "Level 2: Anti-Library Extraction (The Failures)"
+        - label: "Level 3: Vision Alignment (Intent vs. Reality)"
+        - label: "Level 3: Process Memory (The Rationale)"
+        - label: "Level 4: Meta-Pattern Synthesis (The Patterns)"
+        - label: "Level 4: Paradigm Extraction (The Mental Models)"
     validations:
       required: true
 
   - type: textarea
     id: special-requests
     attributes:
-      label: Special Requests
-      description: Any specific focus areas? (e.g., "Focus on the payment module")
+      label: Special Requests / Observations (Optional)
+      description: Did you see something specific? A weird bug? A feeling of complexity? (The Agent uses this as a clue, not a rule.)
+      placeholder: "e.g., 'I feel like this code is too hard to test.'"
