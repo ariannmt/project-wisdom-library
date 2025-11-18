@@ -9,17 +9,20 @@ Welcome to the **Project Wisdom Library**—a centralized, AI-driven archive for
 
 ## How to Use This Library
 
-### 1. For Vision Owners (Humans)
+### 1. Vision Owner (Human): Create the Mandate
 **Do not browse folders manually.** Use the automated Intake Process.
+1.  **Start:** Go to **Issues** $\to$ **New Issue**.
+2.  **Select:** `[Intake]: Conceptual Investigation` or `[Task]: Backlog Task`.
+3.  **Submit:** Fill out the form. This creates the "Trigger."
 
-1.  **Start an Investigation:**
-    * Go to the **Issues** tab.
-    * Click **New Issue**.
-    * Select **[Intake]: Conceptual Investigation**.
-    * Fill out the form (Context is critical!).
+### 2. System Owner (Human + Agent): Execute the Mandate
+*The system does not run automatically. You must invoke the Agent.*
 
-2.  **Strategic Realignment:**
-    * If you see a "Paradigm Shift" backlog item, it means the system has detected a need for cultural or mental model change.
+1.  **Open your Agent Panel** (e.g., GitHub Copilot, Cursor, etc.).
+2.  **Load Context:** Ensure the agent can read `docs/` and `prompts/`.
+3.  **Paste the Driver:** Input the content of `prompts/AGENT_PANEL_PROMPT.md`.
+4.  **Fire:** Give the command:
+    > "Execute Phase 1 for Issue #[Number]"
 
 ### 2. For AI Agents (System Owners)
 **Do not chat.** Execute the mandate.
