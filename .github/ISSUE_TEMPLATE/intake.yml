@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: intent
     attributes:
-      label: Strategic Intent / Context (Optional)
+      label: Strategic Intent / Context (Useful)
       description: Add context only if you have a specific goal. Otherwise, the Agent will infer intent from the code and tools selected.
       placeholder: "Optional: 'We are auditing for security risks' or 'I want to understand the coupling.'"
     validations:
