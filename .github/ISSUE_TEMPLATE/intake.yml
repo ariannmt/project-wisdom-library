@@ -1,5 +1,5 @@
 name: "🧠 Conceptual Investigation Intake"
-description: "Initiate an autonomous AI investigation to distill wisdom, decisions, or architecture."
+description: "Initiate an autonomous AI investigation. You point, the Agent reasons."
 title: "[Intake]: "
 labels: ["investigation", "autonomous-agent"]
 body:
@@ -7,17 +7,14 @@ body:
     attributes:
       value: |
         # Project Wisdom Intake
-        *This form initiates an autonomous investigation.*
-        
-        **Instructions:** You do not need to use technical jargon. Just tell us what is happening, what you are worried about, and what you need to decide.
+        *This form triggers an autonomous agent investigation.*
 
   - type: dropdown
     id: analysis-type
     attributes:
       label: Investigation Depth
-      description: How deep should the agent go?
       options:
-        - "Atomic (Quick check, single specific question)"
+        - "Atomic (Quick check, specific question)"
         - "Long-Form (Deep distillation, multi-file synthesis)"
     validations:
       required: true
@@ -30,55 +27,34 @@ body:
     validations:
       required: true
 
-  # --- The "Strategic Context" Elicitation Section ---
-  
-  - type: textarea
-    id: trigger
+  - type: input
+    id: subject
     attributes:
-      label: 1. The Trigger (What happened?)
-      description: What event, meeting, or observation prompted this request?
-      placeholder: "e.g., 'We are preparing for a security audit,' or 'I noticed the team is struggling to add new features.'"
+      label: Subject / Theme
+      description: What are we looking at? (e.g., "The Payment Gateway", "The Auth Service", "The Team Culture")
+      placeholder: "Auth Service"
     validations:
       required: true
-
-  - type: textarea
-    id: fear
-    attributes:
-      label: 2. The Uncertainty (What are you worried about?)
-      description: What is your gut feeling or fear about this system? What might be wrong?
-      placeholder: "e.g., 'I am worried the original auth code relies too much on session cookies,' or 'I feel like we are drifting away from our mobile-first vision.'"
-    validations:
-      required: true
-
-  - type: textarea
-    id: decision
-    attributes:
-      label: 3. The Goal (What do you need to decide?)
-      description: What action depends on this answer?
-      placeholder: "e.g., 'I need to decide whether to refactor this module or rewrite it completely.'"
-    validations:
-      required: true
-
-  # -----------------------------------------------------
 
   - type: checkboxes
     id: menu-items
     attributes:
       label: The Wisdom Ladder (Methodologies)
-      description: Select the tools the agent should use (Agent will refine this based on your context).
+      description: Select the tools. The Agent will determine how to apply them to your Subject.
       options:
         - label: "Level 1: Hard Architecture Mapping (The Structure)"
-        - label: "Level 2: Decision Forensics (The History/Commit Logs)"
-        - label: "Level 2: Anti-Library Extraction (What failed/was discarded?)"
-        - label: "Level 3: Vision Alignment (Does code match intent?)"
-        - label: "Level 3: Process Memory (Capture the rationale)"
-        - label: "Level 4: Meta-Pattern Synthesis (Recurring themes)"
-        - label: "Level 4: Paradigm Extraction (Mental Models & Shifts)"
+        - label: "Level 2: Decision Forensics (The History)"
+        - label: "Level 2: Anti-Library Extraction (The Failures)"
+        - label: "Level 3: Vision Alignment (Intent vs. Reality)"
+        - label: "Level 3: Process Memory (The Rationale)"
+        - label: "Level 4: Meta-Pattern Synthesis (The Patterns)"
+        - label: "Level 4: Paradigm Extraction (The Mental Models)"
     validations:
       required: true
 
   - type: textarea
     id: special-requests
     attributes:
-      label: Special Requests
-      description: Any specific focus areas? (e.g., "Focus on the payment module")
+      label: Special Requests / Observations (Optional)
+      description: Did you see something specific? A weird bug? A feeling of complexity? (The Agent uses this as a clue, not a rule.)
+      placeholder: "e.g., 'I feel like this code is too hard to test.'"
