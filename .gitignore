@@ -6,7 +6,6 @@
 /ideas/
 /sensitive/
 /tools/
-/catalogue/
 *.pyc
 *.tmp
 .DS_Store
