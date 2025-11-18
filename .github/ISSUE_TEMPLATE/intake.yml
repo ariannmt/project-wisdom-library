@@ -27,28 +27,12 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: subject
+  - type: textarea
+    id: intent
     attributes:
-      label: Subject / Theme
-      description: What are we looking at? (e.g., "The Payment Gateway", "The Auth Service", "The Team Culture")
-      placeholder: "Auth Service"
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: menu-items
-    attributes:
-      label: The Wisdom Ladder (Methodologies)
-      description: Select the tools. The Agent will determine how to apply them to your Subject.
-      options:
-        - label: "Level 1: Hard Architecture Mapping (The Structure)"
-        - label: "Level 2: Decision Forensics (The History)"
-        - label: "Level 2: Anti-Library Extraction (The Failures)"
-        - label: "Level 3: Vision Alignment (Intent vs. Reality)"
-        - label: "Level 3: Process Memory (The Rationale)"
-        - label: "Level 4: Meta-Pattern Synthesis (The Patterns)"
-        - label: "Level 4: Paradigm Extraction (The Mental Models)"
+      label: Strategic Intent / The "Why"
+      description: What are you trying to achieve? (e.g., "Audit for security risks," "Understand why this is complex," "Capture lessons for the new team.")
+      placeholder: "We are scaling up and I'm worried this architecture won't hold."
     validations:
       required: true
 
@@ -56,5 +40,5 @@ body:
     id: special-requests
     attributes:
       label: Special Requests / Observations (Optional)
-      description: Did you see something specific? A weird bug? A feeling of complexity? (The Agent uses this as a clue, not a rule.)
+      description: Any specific clues or symptoms you noticed?
       placeholder: "e.g., 'I feel like this code is too hard to test.'"
