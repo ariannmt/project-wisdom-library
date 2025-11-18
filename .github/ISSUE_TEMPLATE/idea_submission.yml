@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Wisdom Note / Idea
+        # Wisdom Note
         Use this to capture insights that might turn into investigations later.
 
   - type: input
@@ -35,12 +35,3 @@ body:
         - "Medium (Potential Improvement)"
         - "High (Risk of Strategic Drift)"
         - "Critical (Paradigm Shift Required)"
-
-  - type: dropdown
-    id: next-action
-    attributes:
-      label: Recommended Next Step
-      options:
-        - "Log for now (Anti-Library)"
-        - "Discuss in team review"
-        - "Trigger Full Investigation (Agent)"
