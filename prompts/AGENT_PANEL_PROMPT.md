@@ -10,32 +10,35 @@
 
 **1. Parse the Mandate**
 * **Target:** [Repository URL]
-* **Intent:** [User's Goal/Fear]
+* **User Intent:** [User Input OR "None"]
+* **Tools:** [Selected Checkboxes]
 
-**2. Autonomous Profiling (Do not ask the user)**
-* **Scan the Target:** Look at `README.md`, file structure, and `package.json`/`requirements.txt`.
-* **Identify the Subject:** What is this? (e.g., "It is a Microservices Auth Provider in Go.")
-* **Determine Domain Imperatives:** Based on the Subject, what *must* be true? (e.g., "Auth must be stateless and secure.")
-* **Formulate Hypothesis:** "The User's intent is [Intent]. Given this is a [Subject], I suspect the issue lies in [Hypothesis]."
+**2. Autonomous Profiling (The "Why")**
+* **Scan the Target:** Analyze the file structure, languages, and README.
+* **Identify Subject:** Determine what the system *is* (e.g., "This is a Legacy Monolith in Java" or "This is a Microservices Auth provider").
+* **Deduce Strategic Context:**
+    * *If User Intent is present:* Use it as the primary lens.
+    * *If User Intent is BLANK:* You must **Infer** the intent based on the Tool Selection + Subject.
+        * *Example:* "User selected 'Anti-Library' on a 'Legacy Monolith'. Inferred Intent: To identify failed patterns before a rewrite."
+        * *Example:* "User selected 'Forensics' on 'Auth Service'. Inferred Intent: To understand the security lineage and decisions."
 
-**3. Select the Wisdom Ladder (Methodology)**
-* *You must choose the right tools for this specific profile.*
-* **Data (Level 1):** Always run `Hard Architecture Mapping` to verify the structure.
-* **Context (Level 2):** If the intent implies "Why," run `Decision Forensics` and `Anti-Library`.
-* **Wisdom (Level 4):** If the intent implies "Future/Scaling," you MUST synthesize `Meta-Patterns` and `Paradigms`.
+**3. Select the Wisdom Ladder**
+* Validate the requested Tools against your Inferred Intent.
+* *Constraint:* If the User asked for Level 4 (Wisdom) but the Subject is complex/unknown, strictly enforce Level 1 (Data) mapping first to ensure accuracy.
 
 ---
 
 ## Phase 2: Execution & Synthesis
 
 **4. Execute Analysis**
-* Run your selected tools.
-* **Filter:** Focus only on evidence that proves/disproves your Hypothesis or addresses the User's Intent.
+* Run the selected tools against the Target.
+* **Filter:** Focus evidence collection on proving/disproving the hypothesis derived from your Inferred Context.
 
 **5. Generate Artifacts**
 * **Primary Artifact:** `templates/ATOMIC_ANALYSIS_TEMPLATE.md` or `templates/DISTILLATION_TEMPLATE.md`.
-* **Process Memory:** `templates/PROCESS_MEMORY_TEMPLATE.md`. **Mandatory.** Capture your profiling logic and the rationale for your findings.
-* **Strategic Backlog:** If you find a Paradigm Shift (e.g., "We are building a distributed monolith"), file it using `templates/STRATEGIC_BACKLOG_TEMPLATE.md`.
+* **Process Memory:** `templates/PROCESS_MEMORY_TEMPLATE.md`. **Mandatory.**
+    * *Critical:* In the "Strategic Context" field of the template, state: "Inferred Context: [Your Deduction]" if the user provided none.
+* **Strategic Backlog:** Use `templates/STRATEGIC_BACKLOG_TEMPLATE.md` for any discovered Paradigm Shifts.
 
 ---
 
@@ -43,7 +46,7 @@
 
 **6. Update Catalogue**
 * Update `catalogue/manifest.json` and `catalogue/index.md`.
-* **Map Protocol:** Ensure your internal JSON data maps correctly to the external Schema.
+* **Map Protocol:** Ensure internal JSON data maps to the external Schema.
 
 ---
 
@@ -51,7 +54,7 @@
 
 **7. Pull Request**
 * Create a PR using `.github/PULL_REQUEST_TEMPLATE.md`.
-* **Description:** Do not just list files. Explain the **Wisdom** you found. Answer the User's Intent directly with your expert finding.
+* **Description:** Explain the **Wisdom** you found. If you inferred the intent, state it clearly: "Based on the architecture, I focused this analysis on [Topic]..."
 
 ---
 
