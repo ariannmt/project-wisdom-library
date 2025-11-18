@@ -1,0 +1,46 @@
+name: "💡 Idea or Observation"
+description: "Capture a quick thought, potential paradigm shift, or observation for the library."
+title: "[Idea]: "
+labels: ["idea", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Wisdom Note / Idea
+        Use this to capture insights that might turn into investigations later.
+
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      placeholder: e.g., "We might be drifting towards a Monolith again"
+    validations:
+      required: true
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation / Insight
+      description: What did you notice? What is the potential "Paradigm Shift"?
+      placeholder: "I noticed that every new service shares the same database. This violates our 'Shared Nothing' principle..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Potential Strategic Impact
+      options:
+        - "Low (Interesting Observation)"
+        - "Medium (Potential Improvement)"
+        - "High (Risk of Strategic Drift)"
+        - "Critical (Paradigm Shift Required)"
+
+  - type: dropdown
+    id: next-action
+    attributes:
+      label: Recommended Next Step
+      options:
+        - "Log for now (Anti-Library)"
+        - "Discuss in team review"
+        - "Trigger Full Investigation (Agent)"
