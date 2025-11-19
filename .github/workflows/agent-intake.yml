@@ -6,8 +6,6 @@ on:
 jobs:
   investigate:
     runs-on: ubuntu-latest
-    if: |
-      contains(github.event.issue.labels.*.name, 'autonomous-agent')
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
