@@ -16,34 +16,43 @@ jobs:
         run: |
           mkdir -p atomic distillations analyses process_memory backlog catalogue
 
-      - name: Extract agent payload from issue body
-        id: payload
+      - name: Extract intake values from issue body
+        id: parse-issue
         run: |
           echo "${{ github.event.issue.body }}" > issue_body.txt
-          # Extract block between ```yaml ... ```
-          python3 <<EOF >agent_vars.sh
+          python3 <<EOF > issue_vars.sh
 import re
-import yaml
+issue_body = open("issue_body.txt").read()
 
-with open("issue_body.txt") as f:
-    text = f.read()
+def find_section(title):
+    m = re.search(rf"{title}\\n\\n([\\s\\S]*?)(\\n(?=###)|$)", issue_body)
+    return m.group(1).strip() if m else ""
 
-m = re.search(r'```yaml(.*?)```', text, re.DOTALL)
-if m:
-    block = m.group(1).strip()
-    payload = yaml.safe_load(block)
-    inp = payload.get("agent_prompt", {})
-    for k, v in inp.items():
-        # If nested (inputs/instructions), flatten
-        if isinstance(v, dict):
-            for subk, subv in v.items():
-                print(f'export AGENT_{subk.upper()}="{subv}"')
-        else:
-            print(f'export AGENT_{k.upper()}="{v}"')
-else:
-    print('export PAYLOAD_ERROR="No agent_prompt block found."')
+depth = find_section("### Investigation Depth")
+target = find_section("### Target Repository URL")
+
+# Methodologies parsing (matches checked lines: lines starting with "- [x]")
+methodologies_raw = find_section("### Methodology (The Wisdom Ladder)")
+tools = []
+for line in methodologies_raw.splitlines():
+    m = re.match(r"- \\[x\\] (.+)", line.strip())
+    if m:
+        tools.append(m.group(1).strip())
+tools_str = ", ".join(tools)
+
+intent = find_section("### Intent / Strategic Context (Optional)")
+intent = (intent if intent and intent.lower() != "_no response_" else "")
+
+clues = find_section("### Special Observations (Optional)")
+clues = (clues if clues and clues.lower() != "_no response_" else "")
+
+print(f'export AGENT_TARGET="{target}"')
+print(f'export AGENT_DEPTH="{depth}"')
+print(f'export AGENT_TOOLS="{tools_str}"')
+print(f'export AGENT_INTENT="{intent}"')
+print(f'export AGENT_CLUES="{clues}"')
 EOF
-          cat agent_vars.sh >> $GITHUB_ENV
+          cat issue_vars.sh >> $GITHUB_ENV
 
       - name: Setup Python
         uses: actions/setup-python@v4
