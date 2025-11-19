@@ -4,7 +4,7 @@ with open("issue_body.txt") as f:
     issue_body = f.read()
 
 def find_section(title):
-    m = re.search(rf"{title}\\n\\n([\\s\\S]*?)(\\n(?=###)|$)", issue_body)
+    m = re.search(rf"{title}\n\n([\s\S]*?)(\n(?=###)|$)", issue_body)
     return m.group(1).strip() if m else ""
 
 depth = find_section("### Investigation Depth")
