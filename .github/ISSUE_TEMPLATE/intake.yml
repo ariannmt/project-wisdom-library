@@ -1,5 +1,5 @@
 name: "🧠 Conceptual Investigation Intake"
-description: "Initiate an autonomous AI investigation. You point, the Agent reasons."
+description: "Initiate an autonomous AI investigation. Point and Shoot."
 title: "[Intake]: "
 labels: ["investigation", "autonomous-agent"]
 body:
@@ -7,22 +7,22 @@ body:
     attributes:
       value: |
         # Project Wisdom Intake
-        *This form triggers an autonomous agent investigation.*
+        **Action:** Fill this form and **Assign to Copilot** to start.
 
   - type: dropdown
     id: analysis-type
     attributes:
       label: Investigation Depth
       options:
-        - "Atomic (Quick check, specific question)"
-        - "Long-Form (Deep distillation, multi-file synthesis)"
+        - "Atomic (Quick check)"
+        - "Long-Form (Deep distillation)"
     validations:
       required: true
 
   - type: input
     id: target
     attributes:
-      label: Target (Repository or Document)
+      label: Target Repository URL
       placeholder: "https://github.com/my-org/my-repo"
     validations:
       required: true
@@ -30,33 +30,31 @@ body:
   - type: checkboxes
     id: menu-items
     attributes:
-      label: The Wisdom Ladder (Methodologies)
-      description: Select the tools. The Agent will determine how to apply them.
+      label: Methodology (The Wisdom Ladder)
       options:
-        - label: "Level 1: Hard Architecture Mapping (The Structure)"
-        - label: "Level 2: Decision Forensics (The History)"
-        - label: "Level 2: Anti-Library Extraction (The Failures)"
-        - label: "Level 3: Vision Alignment (Intent vs. Reality)"
-        - label: "Level 3: Process Memory (The Rationale)"
-        - label: "Level 4: Meta-Pattern Synthesis (The Patterns)"
-        - label: "Level 4: Paradigm Extraction (The Mental Models)"
+        - label: "Level 1: Hard Architecture Mapping"
+        - label: "Level 2: Decision Forensics"
+        - label: "Level 2: Anti-Library Extraction"
+        - label: "Level 3: Vision Alignment"
+        - label: "Level 3: Process Memory"
+        - label: "Level 4: Meta-Pattern Synthesis"
+        - label: "Level 4: Paradigm Extraction"
     validations:
       required: true
 
   - type: textarea
     id: intent
     attributes:
-      label: Strategic Intent / Context (Useful)
-      description: Add context only if you have a specific goal. Otherwise, the Agent will infer intent from the code and tools selected.
-      placeholder: "Optional: 'We are auditing for security risks' or 'I want to understand the coupling.'"
+      label: Intent / Strategic Context (Useful)
+      description: Leave blank to let the Agent infer intent from the Target.
+      placeholder: "e.g. Audit for security risks"
     validations:
       required: false
 
   - type: textarea
     id: special-requests
     attributes:
-      label: Special Requests / Observations (Optional)
-      description: Specific files or issues to focus on?
-      placeholder: "e.g., 'Focus on the user_auth.go file'"
+      label: Special Observations (Optional)
+      placeholder: "e.g. I noticed the auth module is weird."
     validations:
       required: false
