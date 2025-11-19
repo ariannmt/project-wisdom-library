@@ -8,8 +8,11 @@ body:
       value: |
         # Project Wisdom Intake
         *This form triggers an autonomous agent investigation.*
-        
-        **Action:** Fill this form and **Assign to Copilot** to start.
+
+        **Action:**
+        1. Fill in all fields.
+        2. Assign to Copilot.
+        3. Each investigation is a **standalone workflow**. The findings will be linked only to this Issue—not to external issues or other repositories.
 
   - type: dropdown
     id: analysis-type
@@ -64,6 +67,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        <!-- copilot-agent:payload -->
         ```yaml
         agent_prompt:
           role: System Owner Agent
@@ -80,5 +84,8 @@ body:
             2. If [intent] is empty, infer it from [tools] and [target].
             3. Execute the selected [tools].
             4. Generate 'process_memory' (JSON) and Analysis Artifacts.
-            5. Submit PR.
+            5. Submit PR (linking only this Issue).
         ```
+
+        <!-- copilot-agent:diagnostics -->
+        *If an error occurs parsing the payload or required fields are missing, Copilot will comment here describing the error and await correction before proceeding.*
