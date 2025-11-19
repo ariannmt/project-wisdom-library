@@ -343,5 +343,13 @@
     "intent": "\"\"",
     "artifact": "backlog/unknown/2025-11-19-paradigm-shift-unknown.md",
     "created": "2025-11-19"
+  },
+  {
+    "issue": "16",
+    "target": "\"https://github.com/jcmrs/thinking-tools-framework\"",
+    "depth": "\"Long-Form (Deep distillation)\"",
+    "intent": "\"\"",
+    "artifact": "backlog/thinking-tools-framework/2025-11-19-paradigm-shift-unknown.md",
+    "created": "2025-11-19"
   }
 ]
