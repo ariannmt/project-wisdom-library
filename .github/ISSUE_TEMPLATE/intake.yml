@@ -3,11 +3,14 @@ description: "Initiate an autonomous AI investigation. Point and Shoot."
 title: "[Intake]: "
 labels: ["investigation", "autonomous-agent"]
 body:
-  - type: markdown
+  - type: textarea
+    id: system-prompt
     attributes:
+      label: System Instructions (Auto-Generated)
+      description: "⚠️ DO NOT EDIT. This block contains the execution mandate for the System Owner Agent."
       value: |
-        # Project Wisdom Intake
-        **Action:** Fill this form and **Assign to Copilot** to start.
+        validations:
+      required: true
 
   - type: dropdown
     id: analysis-type
@@ -45,7 +48,7 @@ body:
   - type: textarea
     id: intent
     attributes:
-      label: Intent / Strategic Context (Useful)
+      label: Intent / Strategic Context (Optional)
       description: Leave blank to let the Agent infer intent from the Target.
       placeholder: "e.g. Audit for security risks"
     validations:
