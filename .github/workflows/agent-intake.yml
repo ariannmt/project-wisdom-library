@@ -1,0 +1,37 @@
+name: "Agent Intake Investigation"
+on:
+  issues:
+    types: [assigned]
+
+jobs:
+  investigate:
+    runs-on: ubuntu-latest
+    if: |
+      contains(github.event.issue.labels.*.name, 'autonomous-agent')
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Create output folders
+        run: |
+          mkdir -p atomic distillations analyses process_memory backlog catalogue
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate investigation artifacts
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python .github/scripts/generate_artifacts.py
+
+      - name: Commit and push new artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add atomic/ distillations/ analyses/ process_memory/ backlog/ catalogue/
+          git commit -m "Add investigation artifacts via Copilot for issue #${{ github.event.issue.number }}"
+          git push
