@@ -7,6 +7,7 @@ on:
 jobs:
   investigate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -15,38 +16,43 @@ jobs:
         run: |
           mkdir -p atomic distillations analyses process_memory backlog catalogue
 
+      - name: Extract agent payload from issue body
+        id: payload
+        run: |
+          echo "${{ github.event.issue.body }}" > issue_body.txt
+          # Extract block between ```yaml ... ```
+          python3 <<EOF >agent_vars.sh
+import re
+import yaml
+
+with open("issue_body.txt") as f:
+    text = f.read()
+
+m = re.search(r'```yaml(.*?)```', text, re.DOTALL)
+if m:
+    block = m.group(1).strip()
+    payload = yaml.safe_load(block)
+    inp = payload.get("agent_prompt", {})
+    for k, v in inp.items():
+        # If nested (inputs/instructions), flatten
+        if isinstance(v, dict):
+            for subk, subv in v.items():
+                print(f'export AGENT_{subk.upper()}="{subv}"')
+        else:
+            print(f'export AGENT_{k.upper()}="{v}"')
+else:
+    print('export PAYLOAD_ERROR="No agent_prompt block found."')
+EOF
+          cat agent_vars.sh >> $GITHUB_ENV
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Retrieve issue form outputs
-        id: get-outputs
-        uses: actions/github-script@v7
-        with:
-          result-encoding: string
-          script: |
-            const outputs = github.context.payload.issue.body.match(/---\n(.+?)\n---/s);
-            let result = {};
-            if (outputs && outputs[1]) {
-              for(const line of outputs[1].split('\n')) {
-                if(line.includes(':')) {
-                  const [key, ...rest] = line.split(':');
-                  result[key.trim()] = rest.join(':').trim();
-                }
-              }
-            }
-            return result;
-
       - name: Generate investigation artifacts
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          AGENT_TARGET: ${{ steps.get-outputs.outputs.agent_target }}
-          AGENT_DEPTH: ${{ steps.get-outputs.outputs.agent_depth }}
-          AGENT_TOOLS: ${{ steps.get-outputs.outputs.agent_tools }}
-          AGENT_INTENT: ${{ steps.get-outputs.outputs.agent_intent }}
-          AGENT_CLUES: ${{ steps.get-outputs.outputs.agent_clues }}
         run: |
           python .github/scripts/generate_artifacts.py
 
