@@ -1494,6 +1494,9 @@
           "local-first",
           "level-1",
           "wisdom-ladder"
+        ]
+      }
+    ],
     "atomic": [
       {
         "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
@@ -1551,7 +1554,25 @@
             "Uvicorn"
           ],
           "special_focus": "Skills Patterns Extraction"
-          "claude-code-plugins-plus-decision-forensics-2025-11-20"
+        }
+      }
+    ],
+    "atomic": [
+      {
+        "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claude-code-plugins-plus/2025-11-20-decision-forensics.md",
+        "description": "Git history analysis of 225 commits revealing 3-phase evolution, 7 patterns, decisive Nov 8 moment achieving 100% schema compliance",
+        "tags": [
+          "decision-forensics",
+          "standards-as-strategy",
+          "evidence-first-scaling",
+          "skills-patterns"
+        ],
+        "related": [
+          "claude-code-plugins-plus-architecture-2025-11-20"
         ],
         "strategic_context": "Reveal how platform constraints became architectural specifications"
       },
