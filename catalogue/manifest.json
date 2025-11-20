@@ -1494,13 +1494,6 @@
           "local-first",
           "level-1",
           "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [],
-        "strategic_context": "Skills-as-Infrastructure MCP implementation"
-      }
-    ],
     "atomic": [
       {
         "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
@@ -1558,8 +1551,6 @@
             "Uvicorn"
           ],
           "special_focus": "Skills Patterns Extraction"
-        },
-        "related": [
           "claude-code-plugins-plus-decision-forensics-2025-11-20"
         ],
         "strategic_context": "Reveal how platform constraints became architectural specifications"
