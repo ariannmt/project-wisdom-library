@@ -919,5 +919,13 @@
     "intent": "\"\"",
     "artifact": "backlog/claude-skills-mcp/2025-11-20-paradigm-shift-unknown.md",
     "created": "2025-11-20"
+  },
+  {
+    "issue": "24",
+    "target": "\"https://github.com/mrgoonie/claudekit-skills\"",
+    "depth": "\"Long-Form (Deep distillation)\"",
+    "intent": "\"\"",
+    "artifact": "backlog/claudekit-skills/2025-11-20-paradigm-shift-unknown.md",
+    "created": "2025-11-20"
   }
 ]
