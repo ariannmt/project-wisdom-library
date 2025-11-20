@@ -375,6 +375,43 @@
             4
           ]
         }
+      },
+      {
+        "id": "acp-process-memory-2025-11-20",
+        "title": "Process Memory: Agent Control Plane Investigation (Level 1 Phase)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/agentcontrolplane/2025-11-20-investigation.md",
+        "description": "Epistemic history of Level 1 investigation phase: thought evolution from surface understanding to Infrastructure-as-Conversations paradigm recognition, documenting 8 key realizations across architecture analysis, git forensics, and capability matrix construction",
+        "tags": [
+          "process-memory",
+          "investigation-partial",
+          "infrastructure-as-conversations",
+          "kubernetes-operator",
+          "paradigm-shift",
+          "level-1-complete",
+          "wisdom-ladder",
+          "capability-matrices"
+        ],
+        "author": "GitHub Copilot",
+        "status": "partial",
+        "related": [
+          "acp-architecture-2025-11-20"
+        ],
+        "strategic_context": "Document the investigation process for Level 1—how understanding evolved from 'another agent framework' to recognizing Kubernetes as conversation orchestrator with etcd as message queue",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete (Level 1)",
+          "investigation_depth": "long-form",
+          "codebase_size": "32000 LOC",
+          "commits_analyzed": 572,
+          "artifacts_generated": 1,
+          "wisdom_levels_completed": [1],
+          "wisdom_levels_pending": [2, 3, 4],
+          "matrices_delivered": 6,
+          "special_focus": "Feature/Functionality/Capability Matrices"
+        }
       }
     ],
     "analyses": [
@@ -448,6 +485,122 @@
             "YAML",
             "JSON Schema"
           ]
+        }
+      }
+    ],
+    "analyses": [
+      {
+        "id": "kindroid-architecture-2025-11-19",
+        "title": "Hard Architecture Mapping: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "analysis",
+        "path": "/analyses/kindroid-chip-plugin/2025-11-19-hard-architecture-mapping.md",
+        "description": "Technical architecture analysis revealing linguistic software pattern: prompts as programs executed by LLM runtime",
+        "tags": [
+          "prompt-engineering",
+          "ai-architecture",
+          "configuration-as-code",
+          "linguistic-software",
+          "kindroid"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "kindroid-decision-forensics-2025-11-19",
+          "kindroid-meta-patterns-2025-11-19",
+          "kindroid-process-memory-2025-11-19"
+        ],
+        "strategic_context": "Establish technical ground truth: this is not traditional software—it's linguistic software where prompts ARE the executable code",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "technical_stack": [
+            "HTML",
+            "JavaScript",
+            "GitHub Pages",
+            "Prompt Engineering"
+          ]
+        }
+      },
+      {
+        "id": "thinking-tools-architecture-2025-11-19",
+        "title": "Hard Architecture Mapping: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "analysis",
+        "path": "/analyses/thinking-tools-framework/2025-11-19-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis revealing five-layer clean architecture, dual-pattern integration (MCP + Skills), ~98% token savings through progressive disclosure, and 52 process memory entries as infrastructure",
+        "tags": [
+          "hard-architecture",
+          "five-layer-architecture",
+          "dual-pattern-integration",
+          "mcp",
+          "skills",
+          "progressive-disclosure",
+          "technical-analysis",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "thinking-tools-decision-forensics-2025-11-19",
+          "thinking-tools-paradigm-extraction-2025-11-19",
+          "thinking-tools-process-memory-2025-11-19"
+        ],
+        "strategic_context": "Establish technical ground truth for Thinking Tools Framework: five-layer architecture enforces modularity, dual-pattern integration serves multiple use cases, process memory is infrastructure not documentation",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "technical_stack": [
+            "Python",
+            "FastMCP",
+            "Jinja2",
+            "YAML",
+            "JSON Schema"
+          ]
+        }
+      },
+      {
+        "id": "acp-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Agent Control Plane (ACP)",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/agentcontrolplane/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis with 6 capability matrices revealing Infrastructure-as-Conversations paradigm where Kubernetes etcd becomes durable message queue for AI agent orchestration. Covers 32K LOC, 6 CRDs, 5 architectural layers, and evolution from Smallchain experiment to enterprise-grade distributed system.",
+        "tags": [
+          "hard-architecture",
+          "kubernetes-operator",
+          "infrastructure-as-conversations",
+          "ai-orchestration",
+          "capability-matrices",
+          "mcp-integration",
+          "human-in-the-loop",
+          "distributed-locking",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "acp-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for ACP: Kubernetes-native orchestrator treating agent conversations as durable workflows with context windows as execution state, delivering 6 comprehensive matrices per user request",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "codebase_size": "32000 LOC",
+          "commits_analyzed": 572,
+          "matrices_delivered": 6,
+          "technical_stack": [
+            "Go",
+            "Kubernetes",
+            "controller-runtime",
+            "etcd",
+            "OpenTelemetry"
+          ],
+          "special_focus": "Feature/Functionality/Capability Matrices"
         }
       }
     ],
