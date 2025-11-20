@@ -1927,6 +1927,142 @@
     ]
   },
   {
+    "analyses": [
+      {
+        "id": "local-skills-mcp-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Local Skills MCP",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/local-skills-mcp/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis revealing five-layer clean architecture, Skills-as-Infrastructure paradigm (npm for AI prompts), progressive disclosure pattern (98% token reduction), hot reload architecture, precedence-based skill resolution, and self-hosting validation through built-in skills",
+        "tags": [
+          "hard-architecture",
+          "five-layer-architecture",
+          "skills-as-infrastructure",
+          "progressive-disclosure",
+          "mcp-protocol",
+          "hot-reload",
+          "token-economics",
+          "semantic-routing",
+          "technical-analysis",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "local-skills-mcp-process-memory-2025-11-20",
+          "local-skills-mcp-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for Local Skills MCP: Skills are portable capability units with semantic contracts (YAML+Markdown), distributed via filesystem infrastructure (multi-source with precedence), routed via LLM language understanding (descriptions as contracts), and validated through self-hosting (built-in skills prove the pattern)",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "codebase_size": "3553 LOC",
+          "commits_analyzed": 69,
+          "development_duration_days": 35,
+          "technical_stack": [
+            "TypeScript",
+            "MCP SDK",
+            "YAML",
+            "Node.js"
+          ],
+          "matrices_delivered": 6,
+          "special_focus": "Skills-as-Infrastructure paradigm and token economics"
+        }
+      }
+    ],
+    "distillations": [
+      {
+        "id": "local-skills-mcp-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Local Skills MCP",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/local-skills-mcp/2025-11-20-paradigm-extraction.md",
+        "description": "Seven fundamental paradigm shifts identified: Skills-as-Infrastructure (central - npm for AI), Semantic Routing via Language Understanding, Progressive Disclosure as Architecture (98% token savings), Hot Reload Over Optimization (iteration speed > microseconds), Precedence-Based Hierarchical Customization, Self-Hosting Validation, Filesystem as Distribution Layer",
+        "tags": [
+          "paradigm-shift",
+          "skills-as-infrastructure",
+          "semantic-routing",
+          "progressive-disclosure",
+          "hot-reload",
+          "precedence-based-customization",
+          "self-hosting-validation",
+          "filesystem-distribution",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "local-skills-mcp-architecture-2025-11-20",
+          "local-skills-mcp-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts required for treating prompts as infrastructure—these are not incremental improvements but transformative changes enabling 5-10× AI workflow efficiency through token optimization, instant iteration, semantic routing, and hierarchical customization",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 7,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-36 months",
+          "investment": "$200-350k (12-month org rollout)",
+          "expected_roi": "5-10× efficiency improvement",
+          "break_even": "12-18 months"
+        }
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "local-skills-mcp-process-memory-2025-11-20",
+        "title": "Process Memory: Local Skills MCP Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/local-skills-mcp/2025-11-20-investigation.md",
+        "description": "Complete epistemic history documenting six pivotal insights: thought evolution from 'just an MCP adapter' to recognizing Skills-as-Infrastructure paradigm, hot reload over caching trade-off, self-hosting validation, semantic routing via language, progressive disclosure architecture, and precedence as hierarchical customization. Captured roads not taken and key realizations.",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "skills-pattern",
+          "mcp-protocol",
+          "paradigm-shift",
+          "epistemic-history",
+          "wisdom-ladder",
+          "level-1-3-4",
+          "local-skills-mcp"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "local-skills-mcp-architecture-2025-11-20",
+          "local-skills-mcp-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Document investigation process itself—how understanding evolved from 'simple file adapter' to recognizing fundamental paradigms for AI capability distribution, validating Skills pattern as infrastructure-level innovation",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete (Level 1, 3, 4)",
+          "investigation_depth": "long-form",
+          "codebase_size": "3553 LOC",
+          "commits_analyzed": 69,
+          "development_duration_days": 35,
+          "pivots_documented": 6,
+          "realizations": 6,
+          "surprises": 6,
+          "paradigms_identified": 7,
+          "artifacts_generated": 3,
+          "wisdom_levels_completed": [1, 3, 4],
+          "wisdom_levels_pending": [2],
+          "key_insight": "Skills are portable capability units (like npm packages for AI) with semantic contracts (YAML+Markdown), distributed via filesystem infrastructure (multi-source with precedence), routed via LLM language understanding (descriptions as contracts), and validated through self-hosting (built-in skills prove the pattern)"
+        }
+      }
+    ],
+    "atomic": [],
+    "backlog": [],
+    "ideas": []
+  },
+  {
     "issue": "30",
     "target": "\"https://github.com/yusufkaraaslan/Skill_Seekers\"",
     "depth": "\"Long-Form (Deep distillation)\"",
