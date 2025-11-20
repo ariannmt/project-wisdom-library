@@ -8,3 +8,4 @@
 - [backlog/mcp_agent_mail/2025-11-20-paradigm-shift-unknown.md](backlog/mcp_agent_mail/2025-11-20-paradigm-shift-unknown.md) — Issue #18, Target: "https://github.com/Dicklesworthstone/mcp_agent_mail", Intent: "", Date: 2025-11-20
 - [backlog/claude-skills-mcp/2025-11-20-paradigm-shift-unknown.md](backlog/claude-skills-mcp/2025-11-20-paradigm-shift-unknown.md) — Issue #23, Target: "https://github.com/K-Dense-AI/claude-skills-mcp", Intent: "", Date: 2025-11-20
 - [backlog/claudekit-skills/2025-11-20-paradigm-shift-unknown.md](backlog/claudekit-skills/2025-11-20-paradigm-shift-unknown.md) — Issue #24, Target: "https://github.com/mrgoonie/claudekit-skills", Intent: "", Date: 2025-11-20
+- [backlog/skill_seekers/2025-11-20-paradigm-shift-unknown.md](backlog/skill_seekers/2025-11-20-paradigm-shift-unknown.md) — Issue #30, Target: "https://github.com/yusufkaraaslan/Skill_Seekers", Intent: "", Date: 2025-11-20

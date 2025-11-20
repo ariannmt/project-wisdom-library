@@ -927,5 +927,13 @@
     "intent": "\"\"",
     "artifact": "backlog/claudekit-skills/2025-11-20-paradigm-shift-unknown.md",
     "created": "2025-11-20"
+  },
+  {
+    "issue": "30",
+    "target": "\"https://github.com/yusufkaraaslan/Skill_Seekers\"",
+    "depth": "\"Long-Form (Deep distillation)\"",
+    "intent": "\"\"",
+    "artifact": "backlog/skill_seekers/2025-11-20-paradigm-shift-unknown.md",
+    "created": "2025-11-20"
   }
 ]
