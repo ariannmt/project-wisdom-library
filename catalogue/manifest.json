@@ -1474,6 +1474,26 @@
     "created": "2025-11-20"
   },
   {
+    "analyses": [
+      {
+        "id": "claude-skills-mcp-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/claude-skills-mcp/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis revealing Skills-as-Infrastructure pattern: two-package design (instant frontend + async backend), progressive disclosure (99.4% token savings), lazy loading (4\u00d7 faster startup), semantic search, auto-updates. Demonstrates Skills as 'npm packages' of AI era.",
+        "tags": [
+          "hard-architecture",
+          "skills-pattern",
+          "two-package-architecture",
+          "progressive-disclosure",
+          "mcp-protocol",
+          "semantic-search",
+          "lazy-loading",
+          "constraint-driven-design",
+          "local-first",
+          "level-1",
+          "wisdom-ladder"
     "atomic": [
       {
         "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
@@ -1510,6 +1530,27 @@
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
+          "claude-skills-mcp-process-memory-2025-11-20",
+          "claude-skills-mcp-paradigm-extraction-2025-11-20",
+          "claude-skills-mcp-meta-patterns-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for Skills-as-Infrastructure reference implementation: Skills are portable, versioned, semantically-indexed capability units that work across any MCP-compatible AI",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "codebase_size": "7100 LOC",
+          "commits_analyzed": 50,
+          "technical_stack": [
+            "Python",
+            "MCP",
+            "FastMCP",
+            "sentence-transformers",
+            "PyTorch",
+            "Starlette",
+            "Uvicorn"
+          ],
+          "special_focus": "Skills Patterns Extraction"
           "claude-code-plugins-plus-decision-forensics-2025-11-20"
         ],
         "strategic_context": "Reveal how platform constraints became architectural specifications"
@@ -1540,6 +1581,26 @@
     ],
     "distillations": [
       {
+        "id": "claude-skills-mcp-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-skills-mcp/2025-11-20-paradigm-extraction.md",
+        "description": "Eight fundamental paradigm shifts identified: Skills-as-Infrastructure (npm for AI), Progressive Disclosure as Mandatory, Semantic Discovery Over Name Lookup, Constraints as Design Specifications, Token Economics Drive Architecture, Local-First Anti-Lock-In, Two-Package Instant-Start Pattern, Platform-Agnostic Capabilities",
+        "tags": [
+          "paradigm-shift",
+          "skills-pattern",
+          "infrastructure-as-code",
+          "progressive-disclosure",
+          "semantic-discovery",
+          "constraint-driven",
+          "token-economics",
+          "local-first",
+          "platform-agnostic",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
         "id": "claude-code-plugins-plus-meta-patterns-2025-11-20",
         "title": "Meta-Pattern Synthesis: Claude Code Plugins Plus",
         "date": "2025-11-20",
@@ -1555,6 +1616,39 @@
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
+          "claude-skills-mcp-meta-patterns-2025-11-20",
+          "claude-skills-mcp-process-memory-2025-11-20",
+          "claude-skills-mcp-architecture-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts defining AI-native development future: Skills are to AI what npm packages are to Node.js\u2014portable, versioned, ecosystem-driven capability units",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 8,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-36 months"
+        }
+      },
+      {
+        "id": "claude-skills-mcp-meta-patterns-2025-11-20",
+        "title": "Meta-Pattern Synthesis: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-skills-mcp/2025-11-20-meta-patterns.md",
+        "description": "Ten universal patterns extracted: Infrastructure-as-Progressive-Disclosure, Constraint-as-Specification, Semantic-First Discovery, Local-First Anti-Lock-In, Token Economics Architecture, Two-Tier Async Bootstrapping, Lazy-Loaded Capability Graph, Dual-Cache Hierarchy, SemVer for Capabilities, Ecosystem-First Thinking",
+        "tags": [
+          "meta-patterns",
+          "universal-principles",
+          "design-wisdom",
+          "progressive-disclosure",
+          "constraint-driven",
+          "semantic-search",
+          "local-first",
+          "token-economics",
+          "lazy-loading",
+          "ecosystem-thinking",
+          "cross-domain",
+          "level-4",
+          "wisdom-ladder"
           "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
         ],
         "strategic_context": "Extract portable wisdom for AI-native development and platform ecosystems",
@@ -1579,6 +1673,16 @@
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
+          "claude-skills-mcp-paradigm-extraction-2025-11-20",
+          "claude-skills-mcp-process-memory-2025-11-20",
+          "claude-skills-mcp-architecture-2025-11-20"
+        ],
+        "strategic_context": "Extract portable wisdom applicable beyond Skills systems\u2014patterns for any AI-native, ecosystem-first, context-constrained architecture",
+        "metadata": {
+          "wisdom_level": 4,
+          "patterns_identified": 10,
+          "abstraction_type": "cross-domain",
+          "applicability": "AI systems, web apps, APIs, distributed systems"
           "claude-code-plugins-plus-meta-patterns-2025-11-20"
         ],
         "strategic_context": "Identify worldview shifts required for AI-native development",
@@ -1590,6 +1694,20 @@
     ],
     "process_memory": [
       {
+        "id": "claude-skills-mcp-process-memory-2025-11-20",
+        "title": "Process Memory: Claude Skills MCP Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/claude-skills-mcp/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of full Wisdom Ladder investigation: thought evolution from 'just an adapter' to recognizing Skills-as-Infrastructure paradigm shift. Five pivotal insights: constraint-driven design, progressive disclosure requirement, Skills as npm for AI, lazy loading economics, local-first strategy. Documents roads not taken and final synthesis.",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "skills-pattern",
+          "paradigm-shift",
+          "epistemic-history",
+          "wisdom-ladder-complete",
+          "level-1-4"
         "id": "claude-code-plugins-plus-process-memory-2025-11-20",
         "title": "Process Memory: Claude Code Plugins Plus (Complete)",
         "date": "2025-11-20",
@@ -1605,6 +1723,16 @@
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
+          "claude-skills-mcp-paradigm-extraction-2025-11-20",
+          "claude-skills-mcp-meta-patterns-2025-11-20",
+          "claude-skills-mcp-architecture-2025-11-20"
+        ],
+        "strategic_context": "Document investigation process itself\u2014how understanding evolved through systematic analysis revealing fundamental paradigm shifts for AI capability distribution",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete",
+          "investigation_depth": "long-form",
           "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
         ],
         "strategic_context": "Document investigation journey from 'marketplace' to 'Skills Pattern Laboratory'",
@@ -1616,6 +1744,14 @@
             3,
             4
           ],
+          "paradigms_extracted": 8,
+          "meta_patterns_identified": 10,
+          "skills_patterns": "ALL (extracted as requested)"
+        }
+      }
+    ],
+    "atomic": [],
+    "ideas": [],
           "patterns_extracted": 22
         }
       }
