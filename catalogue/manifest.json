@@ -2457,4 +2457,89 @@
       }
     ]
   }
+  ,
+  {
+      "investigation_id": "serena-2025-11-20",
+      "target": "https://github.com/oraios/serena",
+      "depth": "Long-Form (Deep distillation - Complete Wisdom Ladder)",
+      "status": "complete",
+      "wisdom_levels_completed": [1, 2, 3, 4],
+      "analyses": [
+          {
+              "id": "serena-architecture-2025-11-20",
+              "title": "Hard Architecture Mapping: Serena",
+              "type": "analysis",
+              "level": 1,
+              "path": "/analyses/serena/2025-11-20-hard-architecture-mapping.md",
+              "tags": ["architecture", "lsp", "mcp", "five-layer-stack", "level-1"]
+          }
+      ],
+      "atomic": [
+          {
+              "id": "serena-decision-forensics-2025-11-20",
+              "title": "Decision Forensics: Serena",
+              "level": 2,
+              "path": "/atomic/serena/2025-11-20-decision-forensics.md"
+          },
+          {
+              "id": "serena-anti-library-2025-11-20",
+              "title": "Anti-Library Extraction: Serena",
+              "level": 2,
+              "path": "/atomic/serena/2025-11-20-anti-library.md"
+          },
+          {
+              "id": "serena-vision-alignment-2025-11-20",
+              "title": "Vision Alignment: Serena",
+              "level": 3,
+              "path": "/atomic/serena/2025-11-20-vision-alignment.md"
+          }
+      ],
+      "distillations": [
+          {
+              "id": "serena-paradigm-extraction-2025-11-20",
+              "title": "Paradigm Extraction: Serena",
+              "level": 4,
+              "path": "/distillations/serena/2025-11-20-paradigm-extraction.md",
+              "paradigms_identified": 8
+          },
+          {
+              "id": "serena-meta-patterns-2025-11-20",
+              "title": "Meta-Pattern Synthesis: Serena",
+              "level": 4,
+              "path": "/distillations/serena/2025-11-20-meta-patterns.md",
+              "patterns_identified": 10
+          }
+      ],
+      "process_memory": [
+          {
+              "id": "serena-process-memory-2025-11-20",
+              "title": "Process Memory: Serena Investigation",
+              "level": 3,
+              "path": "/process_memory/serena/2025-11-20-investigation.md"
+          }
+      ],
+      "backlog": [
+          {
+              "id": "serena-strategic-backlog-2025-11-20",
+              "title": "Strategic Shift: Semantic AI Coding",
+              "type": "strategic-paradigm-shift",
+              "path": "/backlog/serena/2025-11-20-paradigm-shift-semantic-ai-coding.md",
+              "priority": "High",
+              "roi_estimate": "10-20x"
+          }
+      ],
+      "summary": {
+          "artifacts_generated": 8,
+          "total_size_kb": 140,
+          "commits_analyzed": 1846,
+          "codebase_size_loc": 10500,
+          "languages_supported": 30,
+          "paradigms_identified": 8,
+          "meta_patterns_identified": 10,
+          "strategic_pivots": 7,
+          "alignment_score": 0.96,
+          "key_insight": "Serena represents category shift from text-based to semantic AI coding"
+      },
+      "created": "2025-11-20"
+  }
 ]
