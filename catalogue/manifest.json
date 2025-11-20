@@ -1801,6 +1801,132 @@
     "created": "2025-11-20"
   },
   {
+    "analyses": [
+      {
+        "id": "skill-seekers-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Skill Seekers",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/skill-seekers/2025-11-20-hard-architecture-mapping.md",
+        "description": "Level 1 technical architecture analysis revealing 5-layer clean architecture, 10 Skills patterns, triple-source ground truth (docs + code + issues), and Documentation-as-Executable-Knowledge paradigm",
+        "tags": [
+          "hard-architecture",
+          "five-layer-architecture",
+          "skills-pattern",
+          "documentation-as-knowledge",
+          "triple-source-verification",
+          "mcp-integration",
+          "conflict-detection",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "skill-seekers-process-memory-2025-11-20",
+          "skill-seekers-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for Skill Seekers: 5-layer architecture with MCP integration, 10 distinct Skills patterns, and triple-source intelligence aggregation (docs + GitHub + PDFs) with conflict detection",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "codebase_size": "11291 LOC",
+          "commits_analyzed": 191,
+          "technical_stack": [
+            "Python 3.10+",
+            "FastMCP",
+            "BeautifulSoup4",
+            "PyGithub",
+            "PyMuPDF"
+          ],
+          "skills_patterns_extracted": 10
+        }
+      }
+    ],
+    "distillations": [
+      {
+        "id": "skill-seekers-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Skill Seekers",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/skill-seekers/2025-11-20-paradigm-extraction.md",
+        "description": "Eight fundamental paradigm shifts identified: Documentation→Knowledge Engineering, Single→Multi-Source Ground Truth, Human→LLM-Optimized, Scraping→Transformation, CLI→Agent-Accessible, Free OR→AND Paid, Async-Default→Flag, Validation→Conflict Detection",
+        "tags": [
+          "paradigm-shift",
+          "documentation-as-knowledge",
+          "multi-source-verification",
+          "llm-optimization",
+          "agent-accessible",
+          "dual-mode-economics",
+          "conflict-detection",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "skill-seekers-process-memory-2025-11-20",
+          "skill-seekers-architecture-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts required for AI-native documentation practices—these are transformative changes in how we think about knowledge engineering, not incremental improvements",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 8,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-12 months"
+        }
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "skill-seekers-process-memory-2025-11-20",
+        "title": "Process Memory: Skill Seekers Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/skill-seekers/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of comprehensive Wisdom Ladder investigation (Levels 1-4): thought evolution from 'web scraper' to recognizing Documentation-as-Executable-Knowledge paradigm with 10 Skills patterns, 8 paradigm shifts, and triple-source ground truth",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "skills-pattern",
+          "documentation-as-knowledge",
+          "conflict-detection",
+          "paradigm-extraction",
+          "level-1-4",
+          "wisdom-ladder-complete"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "skill-seekers-architecture-2025-11-20",
+          "skill-seekers-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Document the investigation process itself—how understanding evolved from 'just a scraper' to recognizing fundamental paradigm shifts in knowledge engineering and AI-native documentation practices",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete",
+          "investigation_depth": "long-form",
+          "wisdom_levels_completed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "skills_patterns_extracted": 10,
+          "paradigms_identified": 8,
+          "codebase_size": "11291 LOC",
+          "commits_analyzed": 191,
+          "development_duration_days": 34,
+          "special_focus": "Extract ALL Skills patterns"
+        }
+      }
+    ]
+  },
+  {
     "issue": "30",
     "target": "\"https://github.com/yusufkaraaslan/Skill_Seekers\"",
     "depth": "\"Long-Form (Deep distillation)\"",
