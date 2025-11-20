@@ -326,7 +326,7 @@
           "kindroid-architecture-2025-11-19",
           "kindroid-process-memory-2025-11-19"
         ],
-        "strategic_context": "Capture what was NOT built and why\u2014preventing repeated mistakes and revealing how constraints became design specifications"
+        "strategic_context": "Capture what was NOT built and why—preventing repeated mistakes and revealing how constraints became design specifications"
       },
       {
         "id": "kindroid-vision-alignment-2025-11-19",
@@ -357,7 +357,7 @@
         "date": "2025-11-19",
         "type": "atomic",
         "path": "/atomic/thinking-tools-framework/2025-11-19-decision-forensics.md",
-        "description": "Level 2 analysis of git history and process memory revealing foundation-first strategy (95%+ work before first commit), quality without compromise enforcement (94.6%\u2192100% test pass), explicit coordination protocol, and priority-based phased execution",
+        "description": "Level 2 analysis of git history and process memory revealing foundation-first strategy (95%+ work before first commit), quality without compromise enforcement (94.6%→100% test pass), explicit coordination protocol, and priority-based phased execution",
         "tags": [
           "decision-forensics",
           "git-history",
@@ -406,7 +406,7 @@
           "thinking-tools-architecture-2025-11-19",
           "thinking-tools-process-memory-2025-11-19"
         ],
-        "strategic_context": "Capture what was NOT built and why\u2014preventing repeated mistakes and revealing how constraints became design specifications",
+        "strategic_context": "Capture what was NOT built and why—preventing repeated mistakes and revealing how constraints became design specifications",
         "metadata": {
           "level": 2,
           "methodology": "Anti-Library Extraction",
@@ -469,7 +469,7 @@
           "kindroid-process-memory-2025-11-19",
           "kindroid-architecture-2025-11-19"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide future AI-native software development",
+        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide future AI-native software development",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 8,
@@ -500,7 +500,7 @@
           "kindroid-process-memory-2025-11-19",
           "paradigm-shift-linguistic-software-2025-11-19"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for LLM-native software development\u2014this is the philosophical foundation",
+        "strategic_context": "Identify fundamental worldview shifts required for LLM-native software development—this is the philosophical foundation",
         "metadata": {
           "wisdom_level": 4,
           "paradigms_identified": 7,
@@ -534,7 +534,7 @@
           "thinking-tools-process-memory-2025-11-19",
           "thinking-tools-strategic-backlog-2025-11-19"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for AI-First software development\u2014this reveals the philosophical foundation of treating AI as System Owner rather than assistant",
+        "strategic_context": "Identify fundamental worldview shifts required for AI-First software development—this reveals the philosophical foundation of treating AI as System Owner rather than assistant",
         "metadata": {
           "wisdom_level": 4,
           "paradigms_identified": 8,
@@ -568,7 +568,7 @@
           "thinking-tools-process-memory-2025-11-19",
           "thinking-tools-architecture-2025-11-19"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide any AI-First software development effort",
+        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide any AI-First software development effort",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 10,
@@ -599,7 +599,7 @@
           "kindroid-meta-patterns-2025-11-19",
           "kindroid-paradigm-extraction-2025-11-19"
         ],
-        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from 'trivial' to 'profound' through systematic analysis",
+        "strategic_context": "Document the investigation process itself—how understanding evolved from 'trivial' to 'profound' through systematic analysis",
         "metadata": {
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
@@ -638,7 +638,7 @@
           "thinking-tools-vision-alignment-2025-11-19",
           "thinking-tools-meta-patterns-2025-11-19"
         ],
-        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from 'just prompt templates' to recognizing fundamental paradigm shifts through systematic analysis",
+        "strategic_context": "Document the investigation process itself—how understanding evolved from 'just prompt templates' to recognizing fundamental paradigm shifts through systematic analysis",
         "metadata": {
           "protocol_type": "ParadigmExtraction",
           "confidence": 0.95,
@@ -678,7 +678,7 @@
         "related": [
           "acp-architecture-2025-11-20"
         ],
-        "strategic_context": "Document the investigation process for Level 1\u2014how understanding evolved from 'another agent framework' to recognizing Kubernetes as conversation orchestrator with etcd as message queue",
+        "strategic_context": "Document the investigation process for Level 1—how understanding evolved from 'another agent framework' to recognizing Kubernetes as conversation orchestrator with etcd as message queue",
         "metadata": {
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
@@ -722,7 +722,7 @@
           "kindroid-meta-patterns-2025-11-19",
           "kindroid-process-memory-2025-11-19"
         ],
-        "strategic_context": "Establish technical ground truth: this is not traditional software\u2014it's linguistic software where prompts ARE the executable code",
+        "strategic_context": "Establish technical ground truth: this is not traditional software—it's linguistic software where prompts ARE the executable code",
         "metadata": {
           "level": 1,
           "methodology": "Hard Architecture Mapping",
@@ -850,7 +850,7 @@
       },
       {
         "id": "thinking-tools-strategic-backlog-2025-11-19",
-        "title": "Strategic Shift: From AI-Assisted Development \u2192 AI-Owned Development",
+        "title": "Strategic Shift: From AI-Assisted Development → AI-Owned Development",
         "date": "2025-11-19",
         "type": "backlog",
         "path": "/backlog/thinking-tools-framework/2025-11-19-paradigm-shift-ai-first-development.md",
@@ -931,7 +931,7 @@
           "mcp-agent-mail-architecture-2025-11-20",
           "mcp-agent-mail-process-memory-2025-11-20"
         ],
-        "strategic_context": "Capture what was NOT built and why\u2014constraints became competitive advantages (HTTP-only = simpler architecture, advisory leases = no deadlock)"
+        "strategic_context": "Capture what was NOT built and why—constraints became competitive advantages (HTTP-only = simpler architecture, advisory leases = no deadlock)"
       },
       {
         "id": "mcp-agent-mail-vision-alignment-2025-11-20",
@@ -954,7 +954,7 @@
           "mcp-agent-mail-decision-forensics-2025-11-20",
           "mcp-agent-mail-process-memory-2025-11-20"
         ],
-        "strategic_context": "Validate that documentation claims match implementation reality, demonstrating rare integrity in software design where vision \u2192 architecture \u2192 code is straight line"
+        "strategic_context": "Validate that documentation claims match implementation reality, demonstrating rare integrity in software design where vision → architecture → code is straight line"
       }
     ],
     "distillations": [
@@ -983,7 +983,7 @@
           "mcp-agent-mail-process-memory-2025-11-20",
           "mcp-agent-mail-architecture-2025-11-20"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide any AI-native software development, agent coordination systems, or distributed team workflows",
+        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide any AI-native software development, agent coordination systems, or distributed team workflows",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 10,
@@ -1019,7 +1019,7 @@
           "mcp-agent-mail-process-memory-2025-11-20",
           "mcp-agent-mail-strategic-backlog-2025-11-20"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for AI-native software development\u2014these are not incremental improvements but transformative changes to architecture, culture, and validation strategies",
+        "strategic_context": "Identify fundamental worldview shifts required for AI-native software development—these are not incremental improvements but transformative changes to architecture, culture, and validation strategies",
         "metadata": {
           "wisdom_level": 4,
           "paradigms_identified": 8,
@@ -1058,7 +1058,7 @@
           "mcp-agent-mail-anti-library-2025-11-20",
           "mcp-agent-mail-vision-alignment-2025-11-20"
         ],
-        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from 'trivial messaging app' to recognizing fundamental paradigm shifts required for AI-native development",
+        "strategic_context": "Document the investigation process itself—how understanding evolved from 'trivial messaging app' to recognizing fundamental paradigm shifts required for AI-native development",
         "metadata": {
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
@@ -1128,7 +1128,7 @@
         "type": "backlog",
         "path": "/backlog/mcp-agent-mail/2025-11-20-paradigm-shift-agent-first-development.md",
         "description": "Strategic initiative to adopt 8 interconnected paradigm shifts for AI-native development: agents as system owners, coordination as infrastructure, trust-based systems, evidence-first scaling, documentation-driven architecture, standards-first integration, and recursion as validation",
-        "strategic_context": "Investigation revealed that agent-first development requires fundamental paradigm shifts across architecture, culture, and validation. Organizations adopting these paradigms can achieve 10-20\u00d7 productivity gains (validated by MCP Agent Mail's development velocity).",
+        "strategic_context": "Investigation revealed that agent-first development requires fundamental paradigm shifts across architecture, culture, and validation. Organizations adopting these paradigms can achieve 10-20× productivity gains (validated by MCP Agent Mail's development velocity).",
         "tags": [
           "paradigm-shift",
           "ai-native-development",
@@ -1155,10 +1155,291 @@
           "impact": "Transformative",
           "timeline": "6-12 months",
           "investment": "$1-2M",
-          "expected_roi": "10-20\u00d7 productivity"
+          "expected_roi": "10-20× productivity"
         }
       }
     ]
+  },
+  {
+    "atomic": [
+      {
+        "id": "claudekit-skills-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-decision-forensics.md",
+        "description": "Git history analysis of 25 commits revealing three strategic pivots: Monolithic→Progressive Disclosure (Nov 6), MCP Integration (Nov 10), Domain Specialization (Nov 15). Documented 5 decision patterns, 4 trade-offs, showing token-driven architecture and demand-driven development.",
+        "tags": [
+          "decision-forensics",
+          "git-history",
+          "skills-pattern",
+          "progressive-disclosure",
+          "token-driven-architecture",
+          "knowledge-as-code"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-architecture-2025-11-20",
+          "claudekit-skills-anti-library-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Understand why Skills Pattern architecture emerged through three strategic pivots, revealing constraint-driven design and evidence-based expansion as core decision patterns"
+      },
+      {
+        "id": "claudekit-skills-anti-library-2025-11-20",
+        "title": "Anti-Library Extraction: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-anti-library.md",
+        "description": "Documentation of 15+ explicit rejections (build system, database, API), 8 constraints-as-specifications, and 10+ deferred features. Reveals constraints became competitive advantages: no build system→zero setup, file-based→git-native workflows.",
+        "tags": [
+          "anti-library",
+          "negative-knowledge",
+          "constraints-as-specifications",
+          "rejected-alternatives",
+          "constraint-exploitation",
+          "simplicity-over-complexity"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-decision-forensics-2025-11-20",
+          "claudekit-skills-architecture-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Capture what was NOT built and why—revealing disciplined minimalism and constraint-driven design as fundamental principles"
+      },
+      {
+        "id": "claudekit-skills-vision-alignment-2025-11-20",
+        "title": "Vision Alignment Analysis: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-vision-alignment.md",
+        "description": "Assessment of alignment between stated vision and implementation revealing exceptional 95% alignment score (42/44 claims validated). Zero false claims. Documentation=operational reality (rare integrity in software).",
+        "tags": [
+          "vision-alignment",
+          "documentation-integrity",
+          "claims-validation",
+          "exceptional-alignment",
+          "honest-limitations"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-architecture-2025-11-20",
+          "claudekit-skills-decision-forensics-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Validate that documentation claims match implementation reality, demonstrating exceptional integrity where documentation IS operational reality"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "claudekit-skills-meta-patterns-2025-11-20",
+        "title": "Meta-Pattern Synthesis: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claudekit-skills/2025-11-20-meta-patterns.md",
+        "description": "Ten universal patterns extracted: Progressive Disclosure as Architecture, Constraint-Driven Architecture, Documentation as Executable Artifact, Modular Knowledge Distribution, Script Execution Over Generation, Evidence-Based Expansion, Transparent Commerce, Meta-Validation, Pruning as Quality Signal, Token-Driven Architecture. Applicable across 8+ domains.",
+        "tags": [
+          "meta-patterns",
+          "universal-principles",
+          "design-wisdom",
+          "progressive-disclosure",
+          "constraint-exploitation",
+          "knowledge-as-code",
+          "cross-domain",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-paradigm-extraction-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20",
+          "claudekit-skills-architecture-2025-11-20"
+        ],
+        "strategic_context": "Extract portable wisdom applicable beyond AI agents—patterns for any resource-constrained system design (tokens, attention, bandwidth, memory)",
+        "metadata": {
+          "wisdom_level": 4,
+          "patterns_identified": 10,
+          "abstraction_type": "cross-domain",
+          "applicability": "documentation, education, enterprise, APIs, mobile, web"
+        }
+      },
+      {
+        "id": "claudekit-skills-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claudekit-skills/2025-11-20-paradigm-extraction.md",
+        "description": "Six fundamental paradigm shifts identified: Knowledge-as-Code, Token-Driven Architecture, Progressive Disclosure as Architecture, Constraint Exploitation Over Avoidance, Evidence-Driven Evolution, Modularity as Distribution. Requires cultural, organizational, and technical transformation.",
+        "tags": [
+          "paradigm-shift",
+          "knowledge-as-code",
+          "token-driven-architecture",
+          "progressive-disclosure",
+          "constraint-exploitation",
+          "evidence-driven",
+          "modularity-as-distribution",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-meta-patterns-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20",
+          "claudekit-skills-strategic-backlog-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts required for AI-native development—treating documentation as executable code, optimizing for token efficiency, embracing constraints",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 6,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-12 months",
+          "investment": "$1-2M",
+          "expected_roi": "10-20× productivity"
+        }
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "claudekit-skills-investigation-2025-11-20",
+        "title": "Process Memory: ClaudeKit Skills Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/claudekit-skills/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of comprehensive Wisdom Ladder investigation (Levels 1-4): thought evolution from 'trivial docs repo' to recognizing Knowledge-as-Code as fundamental architectural pattern. Generated 7 major analyses across 140KB distilled wisdom.",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "skills-pattern",
+          "knowledge-as-code",
+          "progressive-disclosure",
+          "paradigm-extraction",
+          "level-1-4",
+          "wisdom-ladder-complete"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-paradigm-extraction-2025-11-20",
+          "claudekit-skills-meta-patterns-2025-11-20",
+          "claudekit-skills-strategic-backlog-2025-11-20",
+          "claudekit-skills-architecture-2025-11-20",
+          "claudekit-skills-decision-forensics-2025-11-20",
+          "claudekit-skills-anti-library-2025-11-20",
+          "claudekit-skills-vision-alignment-2025-11-20"
+        ],
+        "strategic_context": "Document the investigation process itself—how understanding evolved from surface-level to recognizing fundamental paradigm shifts for AI-native knowledge systems",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete",
+          "investigation_depth": "long-form",
+          "wisdom_levels_completed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "analyses_generated": 7,
+          "total_size_kb": 140,
+          "paradigms_extracted": 6,
+          "meta_patterns_identified": 10,
+          "skills_analyzed": 37,
+          "alignment_score": 0.95
+        }
+      }
+    ],
+    "analyses": [
+      {
+        "id": "claudekit-skills-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/claudekit-skills/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis revealing Knowledge-as-Code pattern: 37 Skills across 494 files implementing 3-tier progressive disclosure (metadata→SKILL.md→resources). 98% token savings through lazy loading. Scripts, references, assets bundled per-Skill.",
+        "tags": [
+          "hard-architecture",
+          "knowledge-as-code",
+          "progressive-disclosure",
+          "skills-pattern",
+          "token-driven-architecture",
+          "three-tier-loading",
+          "technical-analysis",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claudekit-skills-decision-forensics-2025-11-20",
+          "claudekit-skills-paradigm-extraction-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for Skills Pattern: 3-tier progressive disclosure optimized for token-constrained AI runtimes, modular distribution, executable knowledge architecture",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "technical_stack": [
+            "Markdown",
+            "YAML",
+            "Python",
+            "JavaScript",
+            "Bash"
+          ],
+          "skills_count": 37,
+          "files_analyzed": 494,
+          "token_savings": 0.98
+        }
+      }
+    ],
+    "backlog": [
+      {
+        "id": "claudekit-skills-strategic-backlog-2025-11-20",
+        "title": "Strategic Shift: From Documentation-Supported Development → Knowledge-as-Code",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/claudekit-skills/2025-11-20-paradigm-shift-knowledge-as-code.md",
+        "description": "Strategic initiative to adopt Knowledge-as-Code paradigm with six interconnected paradigm shifts: treating documentation as executable code, token-driven architecture, progressive disclosure, constraint exploitation, evidence-driven evolution, modularity as distribution. Requires cultural, organizational, technical transformation.",
+        "strategic_context": "Investigation revealed that Knowledge-as-Code paradigm enables 10-20× productivity gains for AI-native systems through 98% token savings, 95% documentation alignment, and viral knowledge distribution. Organizations adopting these six paradigms can transform documentation from support artifact to first-class executable code.",
+        "tags": [
+          "paradigm-shift",
+          "knowledge-as-code",
+          "strategic-backlog",
+          "token-driven-architecture",
+          "progressive-disclosure",
+          "constraint-exploitation",
+          "evidence-driven",
+          "cultural-transformation"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [
+          "claudekit-skills-paradigm-extraction-2025-11-20",
+          "claudekit-skills-meta-patterns-2025-11-20",
+          "claudekit-skills-process-memory-2025-11-20"
+        ],
+        "metadata": {
+          "priority": "High",
+          "type": "Strategic Realignment",
+          "target_paradigm": "Knowledge-as-Code (Six Interconnected Paradigms)",
+          "complexity": "High",
+          "impact": "Transformative",
+          "timeline": "6-12 months",
+          "investment": "$1-2M",
+          "expected_roi": "10-20× productivity"
+        }
+      }
+    ],
+    "ideas": [],
+    "sensitive": []
   },
   {
     "issue": "",
