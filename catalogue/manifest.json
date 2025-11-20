@@ -519,6 +519,278 @@
     "sensitive": []
   },
   {
+    "atomic": [
+      {
+        "id": "mcp-agent-mail-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-decision-forensics.md",
+        "description": "Git history analysis of 330+ commits across 27 days revealing strategic pivots (sharing infrastructure, worktree integration), trade-offs (dual persistence, advisory leases), and field-driven architecture patterns",
+        "tags": [
+          "decision-forensics",
+          "git-history",
+          "strategic-pivots",
+          "swarm-development",
+          "agent-coordination",
+          "evidence-first-scaling"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-architecture-2025-11-20",
+          "mcp-agent-mail-anti-library-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Understand why specific architectural decisions were made in agent coordination infrastructure, revealing documentation-first design and meta-level recursion (system built using itself)"
+      },
+      {
+        "id": "mcp-agent-mail-anti-library-2025-11-20",
+        "title": "Anti-Library Extraction: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-anti-library.md",
+        "description": "Documentation of 15+ explicit rejections (STDIO, locks, custom protocols), 20+ deferred features (PostgreSQL, E2EE), and 8 constraints-as-specifications transforming limitations into design principles",
+        "tags": [
+          "anti-library",
+          "negative-knowledge",
+          "constraints-as-specs",
+          "deferred-features",
+          "advisory-model",
+          "roads-not-taken"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-decision-forensics-2025-11-20",
+          "mcp-agent-mail-architecture-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Capture what was NOT built and why—constraints became competitive advantages (HTTP-only = simpler architecture, advisory leases = no deadlock)"
+      },
+      {
+        "id": "mcp-agent-mail-vision-alignment-2025-11-20",
+        "title": "Vision Alignment Analysis: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-vision-alignment.md",
+        "description": "Assessment of alignment between stated vision and implementation revealing exceptional 95%+ consistency. Every promised feature delivered, documentation = operational reality, swarm productivity claims validated by development velocity",
+        "tags": [
+          "vision-alignment",
+          "documentation-integrity",
+          "practices-what-it-preaches",
+          "swarm-validation",
+          "high-trust-docs"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-architecture-2025-11-20",
+          "mcp-agent-mail-decision-forensics-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Validate that documentation claims match implementation reality, demonstrating rare integrity in software design where vision → architecture → code is straight line"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "mcp-agent-mail-meta-patterns-2025-11-20",
+        "title": "Meta-Pattern Synthesis: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/mcp-agent-mail/2025-11-20-meta-patterns.md",
+        "description": "Ten universal patterns extracted from complete investigation: Infrastructure as Coordination Fabric, Dual-Persistence Architecture, Advisory Cooperation Model, Evidence-First Scaling, Constraints as Specifications, Documentation-Driven Architecture, Trust-Based Cultural Enforcement, Standards-First Integration, Marketing as Proof, Meta-Level Validation",
+        "tags": [
+          "meta-patterns",
+          "universal-principles",
+          "design-wisdom",
+          "agent-coordination",
+          "cross-domain",
+          "ai-native-development",
+          "swarm-intelligence",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-paradigm-extraction-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20",
+          "mcp-agent-mail-architecture-2025-11-20"
+        ],
+        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide any AI-native software development, agent coordination systems, or distributed team workflows",
+        "metadata": {
+          "wisdom_level": 4,
+          "patterns_identified": 10,
+          "abstraction_type": "cross-domain",
+          "applicability": "agent systems, distributed systems, dev tools, team workflows"
+        }
+      },
+      {
+        "id": "mcp-agent-mail-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/mcp-agent-mail/2025-11-20-paradigm-extraction.md",
+        "description": "Eight fundamental paradigm shifts identified: Agents as System Owners, Coordination as Infrastructure, Audit Trail as Non-Negotiable, Trust Over Enforcement, Evidence Over Speculation, Documentation as Design, Standards as Strategy, Recursion as Validation",
+        "tags": [
+          "paradigm-shift",
+          "ai-native-development",
+          "agent-first",
+          "system-owner",
+          "coordination-infrastructure",
+          "trust-based-systems",
+          "evidence-first-scaling",
+          "documentation-driven",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-meta-patterns-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20",
+          "mcp-agent-mail-strategic-backlog-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts required for AI-native software development—these are not incremental improvements but transformative changes to architecture, culture, and validation strategies",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 8,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-12 months"
+        }
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "mcp-agent-mail-investigation-2025-11-20",
+        "title": "Process Memory: MCP Agent Mail Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/mcp-agent-mail/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of comprehensive Wisdom Ladder investigation (Levels 1-4): thought evolution from 'just messaging' to recognizing infrastructure-as-coordination-fabric, meta-level recursion (system built using itself), and paradigm shifts. Generated 7 major analyses across 110KB distilled wisdom.",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "agent-coordination",
+          "swarm-intelligence",
+          "infrastructure-as-code",
+          "meta-validation",
+          "paradigm-extraction",
+          "level-1-4",
+          "wisdom-ladder-complete"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-paradigm-extraction-2025-11-20",
+          "mcp-agent-mail-meta-patterns-2025-11-20",
+          "mcp-agent-mail-strategic-backlog-2025-11-20",
+          "mcp-agent-mail-architecture-2025-11-20",
+          "mcp-agent-mail-decision-forensics-2025-11-20",
+          "mcp-agent-mail-anti-library-2025-11-20",
+          "mcp-agent-mail-vision-alignment-2025-11-20"
+        ],
+        "strategic_context": "Document the investigation process itself—how understanding evolved from 'trivial messaging app' to recognizing fundamental paradigm shifts required for AI-native development",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete",
+          "investigation_depth": "long-form",
+          "wisdom_levels_completed": [1, 2, 3, 4],
+          "analyses_generated": 7,
+          "total_size_kb": 110,
+          "paradigms_extracted": 8,
+          "meta_patterns_identified": 10
+        }
+      }
+    ],
+    "analyses": [
+      {
+        "id": "mcp-agent-mail-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/mcp-agent-mail/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 technical architecture analysis revealing 5-layer clean architecture, 50+ MCP tools across 9 clusters, dual-persistence model (Git + SQLite), advisory lease system, and 5 comprehensive feature/functionality/capability matrices as requested",
+        "tags": [
+          "hard-architecture",
+          "five-layer-architecture",
+          "mcp-protocol",
+          "dual-persistence",
+          "advisory-leases",
+          "feature-matrices",
+          "technical-analysis",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "mcp-agent-mail-decision-forensics-2025-11-20",
+          "mcp-agent-mail-paradigm-extraction-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth for MCP Agent Mail: 5-layer architecture, 50+ tools, dual persistence for human oversight, advisory model for trust-based coordination. Special focus on matrices delivered.",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "technical_stack": [
+            "Python 3.14",
+            "FastMCP",
+            "SQLite",
+            "Git",
+            "Streamable HTTP"
+          ],
+          "matrices_created": 5,
+          "special_focus": "Feature/Functionality/Capability Matrices"
+        }
+      }
+    ],
+    "backlog": [
+      {
+        "id": "mcp-agent-mail-strategic-backlog-2025-11-20",
+        "title": "Strategic Shift: From Code-First to Agent-First Development",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/mcp-agent-mail/2025-11-20-paradigm-shift-agent-first-development.md",
+        "description": "Strategic initiative to adopt 8 interconnected paradigm shifts for AI-native development: agents as system owners, coordination as infrastructure, trust-based systems, evidence-first scaling, documentation-driven architecture, standards-first integration, and recursion as validation",
+        "strategic_context": "Investigation revealed that agent-first development requires fundamental paradigm shifts across architecture, culture, and validation. Organizations adopting these paradigms can achieve 10-20× productivity gains (validated by MCP Agent Mail's development velocity).",
+        "tags": [
+          "paradigm-shift",
+          "ai-native-development",
+          "agent-first",
+          "strategic-backlog",
+          "system-owner",
+          "coordination-infrastructure",
+          "trust-based-systems",
+          "evidence-first",
+          "documentation-driven"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [
+          "mcp-agent-mail-paradigm-extraction-2025-11-20",
+          "mcp-agent-mail-meta-patterns-2025-11-20",
+          "mcp-agent-mail-process-memory-2025-11-20"
+        ],
+        "metadata": {
+          "priority": "High",
+          "type": "Strategic Realignment",
+          "target_paradigm": "Agent-First Development (Eight Interconnected Paradigms)",
+          "complexity": "High",
+          "impact": "Transformative",
+          "timeline": "6-12 months",
+          "investment": "$1-2M",
+          "expected_roi": "10-20× productivity"
+        }
+      }
+    ]
+  },
+  {
     "issue": "",
     "target": "\"\"",
     "depth": "\"\"",
