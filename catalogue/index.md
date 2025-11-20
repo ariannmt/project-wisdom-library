@@ -4,3 +4,4 @@
 - [backlog/unknown/2025-11-19-paradigm-shift-unknown.md](backlog/unknown/2025-11-19-paradigm-shift-unknown.md) — Issue #, Target: "", Intent: "", Date: 2025-11-19
 - [backlog/thinking-tools-framework/2025-11-19-paradigm-shift-unknown.md](backlog/thinking-tools-framework/2025-11-19-paradigm-shift-unknown.md) — Issue #16, Target: "https://github.com/jcmrs/thinking-tools-framework", Intent: "", Date: 2025-11-19
 - [backlog/agentcontrolplane/2025-11-20-paradigm-shift-unknown.md](backlog/agentcontrolplane/2025-11-20-paradigm-shift-unknown.md) — Issue #19, Target: "https://github.com/humanlayer/agentcontrolplane", Intent: "", Date: 2025-11-20
+- [backlog/mcp_agent_mail/2025-11-20-paradigm-shift-unknown.md](backlog/mcp_agent_mail/2025-11-20-paradigm-shift-unknown.md) — Issue #18, Target: "https://github.com/Dicklesworthstone/mcp_agent_mail", Intent: "", Date: 2025-11-20

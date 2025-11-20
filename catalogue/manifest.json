@@ -541,5 +541,13 @@
     "intent": "\"\"",
     "artifact": "backlog/agentcontrolplane/2025-11-20-paradigm-shift-unknown.md",
     "created": "2025-11-20"
+  },
+  {
+    "issue": "18",
+    "target": "\"https://github.com/Dicklesworthstone/mcp_agent_mail\"",
+    "depth": "\"Long-Form (Deep distillation)\"",
+    "intent": "\"\"",
+    "artifact": "backlog/mcp_agent_mail/2025-11-20-paradigm-shift-unknown.md",
+    "created": "2025-11-20"
   }
 ]
