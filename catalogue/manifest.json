@@ -2,6 +2,286 @@
   {
     "atomic": [
       {
+        "id": "superpowers-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-decision-forensics.md",
+        "description": "Git history analysis of 117 commits revealing strategic pivots from MCP\u2192native Skills integration, rationalization hardening through adversarial testing, and continuous simplification returning to original vision",
+        "tags": [
+          "decision-forensics",
+          "git-history",
+          "strategic-pivots",
+          "skills-pattern",
+          "tdd-for-docs",
+          "rationalization-hardening",
+          "context-economy",
+          "level-2",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-architecture-2025-11-20",
+          "superpowers-anti-library-2025-11-20",
+          "superpowers-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Understand why Skills pattern evolved as it did through battle-testing, revealing adversarial documentation and constraint exploitation as core design approaches"
+      },
+      {
+        "id": "superpowers-anti-library-2025-11-20",
+        "title": "Anti-Library Extraction: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-anti-library.md",
+        "description": "Documentation of 10+ rejected approaches (programmatic enforcement, platform independence, complex workflows) and 8 constraints-as-specifications that transformed limitations into design advantages",
+        "tags": [
+          "anti-library",
+          "negative-knowledge",
+          "constraints-as-specifications",
+          "rejected-approaches",
+          "psychological-enforcement",
+          "simplification",
+          "level-2",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-decision-forensics-2025-11-20",
+          "superpowers-architecture-2025-11-20",
+          "superpowers-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Capture what was NOT built and why\u2014revealing how markdown-only constraint drove psychological engineering innovation and context limits drove progressive disclosure architecture"
+      },
+      {
+        "id": "superpowers-vision-alignment-2025-11-20",
+        "title": "Vision Alignment Analysis: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-vision-alignment.md",
+        "description": "Assessment revealing exceptional 98.2% vision-reality alignment. Every promised feature delivered, all five philosophies practiced (TDD, systematic, simplicity, evidence, domain), demonstrating integrity through dogfooding",
+        "tags": [
+          "vision-alignment",
+          "integrity",
+          "practices-what-it-preaches",
+          "dogfooding",
+          "evidence-based-evolution",
+          "documentation-accuracy",
+          "level-3",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-architecture-2025-11-20",
+          "superpowers-process-memory-2025-11-20",
+          "superpowers-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Validate that documentation claims match implementation reality\u2014Skills pattern proven trustworthy through self-hosting validation and transparent testing"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "superpowers-meta-patterns-2025-11-20",
+        "title": "Meta-Pattern Synthesis: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/superpowers/2025-11-20-meta-patterns.md",
+        "description": "Ten universal patterns extracted: Behavioral Programming, Adversarial Documentation, TDD for Non-Code, Progressive Disclosure, Three-Layer Enforcement, Constraint Exploitation, Self-Hosting Validation, Context Economy, Simplicity Through Subtraction, CSO",
+        "tags": [
+          "meta-patterns",
+          "universal-principles",
+          "design-wisdom",
+          "skills-pattern",
+          "behavioral-programming",
+          "adversarial-documentation",
+          "cross-domain",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-paradigm-extraction-2025-11-20",
+          "superpowers-process-memory-2025-11-20",
+          "superpowers-architecture-2025-11-20"
+        ],
+        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide AI behavior engineering, documentation design, and process enforcement in any domain",
+        "metadata": {
+          "wisdom_level": 4,
+          "patterns_identified": 10,
+          "abstraction_type": "cross-domain",
+          "portability": "very-high"
+        }
+      },
+      {
+        "id": "superpowers-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/superpowers/2025-11-20-paradigm-extraction.md",
+        "description": "Seven fundamental paradigm shifts identified: Documentation as Executable Behavior (central), TDD for All Artifacts, Constraints as Opportunities, Psychology as Engineering, Resource Constraints as Drivers, Simplicity Through Subtraction, Self-Hosting Validation",
+        "tags": [
+          "paradigm-shift",
+          "documentation-as-behavior",
+          "tdd-for-docs",
+          "constraint-exploitation",
+          "psychological-engineering",
+          "worldview",
+          "mental-models",
+          "level-4",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-meta-patterns-2025-11-20",
+          "superpowers-process-memory-2025-11-20",
+          "superpowers-strategic-backlog-2025-11-20"
+        ],
+        "strategic_context": "Identify fundamental worldview shifts required for Skills pattern adoption\u2014these are not incremental improvements but transformative changes to how organizations program AI behavior",
+        "metadata": {
+          "wisdom_level": 4,
+          "paradigms_identified": 7,
+          "cultural_implications": "high",
+          "adoption_timeline": "6-12 months",
+          "roi_potential": "5-10x improvement"
+        }
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "superpowers-process-memory-2025-11-20",
+        "title": "Process Memory: Superpowers Skills Library Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/superpowers/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of Wisdom Ladder investigation: thought evolution from 'documentation library' to recognizing Skills as behavioral programming paradigm through 5 major pivots, generating 151KB distilled wisdom across 8 artifacts",
+        "tags": [
+          "process-memory",
+          "investigation-complete",
+          "skills-pattern",
+          "behavioral-programming",
+          "paradigm-shift",
+          "tdd-recursion",
+          "level-3",
+          "wisdom-ladder",
+          "long-form"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-paradigm-extraction-2025-11-20",
+          "superpowers-meta-patterns-2025-11-20",
+          "superpowers-strategic-backlog-2025-11-20",
+          "superpowers-architecture-2025-11-20"
+        ],
+        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from surface-level to meta-pattern recognition through systematic analysis, validating Skills pattern through recursive application",
+        "metadata": {
+          "protocol_type": "SystemicInvestigation",
+          "confidence": 0.95,
+          "phase": "Analysis Complete",
+          "investigation_depth": "long-form",
+          "artifacts_generated": 8,
+          "codebase_size": "~6900 LOC",
+          "commits_analyzed": 117,
+          "skills_catalogued": 20,
+          "total_size_kb": 151,
+          "wisdom_levels_completed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pivots_documented": 5,
+          "key_insight": "Skills are behavioral programs where YAML = function signature, Markdown = function body, Claude's system = interpreter"
+        }
+      }
+    ],
+    "analyses": [
+      {
+        "id": "superpowers-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/superpowers/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 analysis revealing five-layer architecture (Distribution\u2192Skills System\u2192Library\u2192Enforcement\u2192QA), 20 skills across 5 categories, Skills-as-Programs pattern with three enforcement layers (structural, psychological, cultural), and 6 capability matrices",
+        "tags": [
+          "hard-architecture",
+          "skills-pattern",
+          "five-layer-architecture",
+          "behavioral-programming",
+          "enforcement-layers",
+          "technical-analysis",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "superpowers-decision-forensics-2025-11-20",
+          "superpowers-paradigm-extraction-2025-11-20",
+          "superpowers-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Establish technical ground truth: Skills are executable behavior programs using YAML+Markdown as code, Claude's system as interpreter, with TDD validation through adversarial testing",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "technical_stack": [
+            "Markdown",
+            "YAML",
+            "Claude Code Skills API",
+            "Shell Scripts",
+            "JSON"
+          ],
+          "matrices_delivered": 6
+        }
+      }
+    ],
+    "backlog": [
+      {
+        "id": "superpowers-strategic-backlog-2025-11-20",
+        "title": "Strategic Shift: From Documentation as Reference \u2192 Documentation as Executable Behavior",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/superpowers/2025-11-20-paradigm-shift-documentation-as-behavior.md",
+        "description": "Strategic initiative to adopt 7 interconnected paradigm shifts for AI behavior programming and workflow consistency. 6-12 month adoption timeline, $150-200k investment, 5-10\u00d7 ROI in workflow consistency and agent effectiveness",
+        "strategic_context": "Investigation revealed Skills pattern enables fundamental transformation in how organizations program AI behavior. Adopting these paradigms can achieve 5-10\u00d7 improvements through documentation-as-executable-behavior approach",
+        "tags": [
+          "paradigm-shift",
+          "documentation-as-behavior",
+          "strategic-backlog",
+          "organizational-transformation",
+          "ai-systems",
+          "workflow-consistency",
+          "behavioral-programming"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [
+          "superpowers-paradigm-extraction-2025-11-20",
+          "superpowers-meta-patterns-2025-11-20",
+          "superpowers-process-memory-2025-11-20"
+        ],
+        "metadata": {
+          "priority": "High",
+          "type": "Strategic Realignment",
+          "target_paradigm": "Documentation as Executable Behavior (Seven Interconnected Paradigms)",
+          "complexity": "High",
+          "impact": "Transformative",
+          "timeline": "6-12 months",
+          "investment": "$150-200k",
+          "expected_roi": "5-10x improvement"
+        }
+      }
+    ],
+    "ideas": []
+  },
+  {
+    "atomic": [
+      {
         "id": "kindroid-decision-forensics-2025-11-19",
         "title": "Decision Forensics: Kindroid AI-Chip Plugin",
         "date": "2025-11-19",
