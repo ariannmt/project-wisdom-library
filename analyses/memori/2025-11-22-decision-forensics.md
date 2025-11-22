@@ -211,7 +211,7 @@ dependencies = [
    - Trade-off: Speed for relevance
 
 4. **Quality:** Agent-curated context is better than search
-   - Evidence: ConsciouscAgent analyzes "patterns" and "importance"
+   - Evidence: ConsciousAgent analyzes "patterns" and "importance"
    - Trade-off: Intelligence for latency (background processing)
 
 **The Bet:** Background analysis (every 6 hours) can identify "essential" memories better than real-time search. The 10-second startup cost (now <1s after optimization) is acceptable.
