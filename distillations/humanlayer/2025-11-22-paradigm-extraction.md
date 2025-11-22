@@ -804,7 +804,7 @@ With Speed Optimizations:
 ### 10.2 User Testimonials (Validation)
 
 **Quote 1:**
-> "Our entire company is using CodeLayer now. We're shipping one banger PR after the other. It is so f-ing good. Unbelievable dude."
+> "Our entire company is using CodeLayer now. We're shipping one banger PR after the other. It is extremely good. Unbelievable."
 > – René Brandel, Founder @ Casco (YC X25)
 
 **Quote 2:**

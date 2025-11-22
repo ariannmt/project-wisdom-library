@@ -10,7 +10,7 @@
     "tags": ["architecture", "go", "typescript", "rust", "daemon", "unix-sockets", "mcp", "claude-code"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22"],
     "metadata": {
       "subject": "https://github.com/humanlayer/humanlayer",
       "loc": 35000,
@@ -30,7 +30,7 @@
     "tags": ["git-history", "strategic-pivot", "sdk-to-ide", "decision-making", "ai-assisted-development", "dogfooding"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-anti-library-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22", "humanlayer-anti-library-2025-11-22"],
     "metadata": {
       "commits_analyzed": 2442,
       "pivot_date": "2025-09-29",
@@ -49,7 +49,7 @@
     "tags": ["anti-library", "failed-experiments", "negative-knowledge", "constraints", "strategic-compression"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-decision-forensics-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22", "humanlayer-decision-forensics-2025-11-22"],
     "metadata": {
       "files_deleted": 264,
       "experiments_cataloged": 5,
@@ -67,7 +67,7 @@
     "tags": ["vision-alignment", "gen2-vs-gen3", "strategic-evolution", "sequencing"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22"],
     "metadata": {
       "alignment_score": 0.75,
       "vision_gap": "Gen 3 deferred, not abandoned",
@@ -75,7 +75,7 @@
     }
   },
   {
-    "id": "humanlayer-investigation-2025-11-22",
+    "id": "humanlayer-process-memory-2025-11-22",
     "title": "Process Memory: HumanLayer Investigation",
     "date": "2025-11-22",
     "type": "process_memory",
@@ -105,7 +105,7 @@
     "tags": ["meta-patterns", "universal-principles", "strategic-compression", "dogfooding", "niche-dominance", "speed-as-moat"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-paradigm-extraction-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22", "humanlayer-paradigm-extraction-2025-11-22"],
     "metadata": {
       "patterns_identified": 10,
       "applicability": "universal",
@@ -123,7 +123,7 @@
     "tags": ["paradigm-shifts", "worldview-transformation", "mental-models", "ai-orchestration", "local-first", "niche-strategy"],
     "author": "System Owner Agent",
     "status": "complete",
-    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-meta-patterns-2025-11-22"],
+    "related": ["humanlayer-process-memory-2025-11-22", "humanlayer-meta-patterns-2025-11-22"],
     "metadata": {
       "paradigms_identified": 6,
       "cultural_implications": "high",
