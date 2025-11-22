@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "id": "humanlayer-hard-architecture-2025-11-22",
+    "title": "Hard Architecture Mapping: HumanLayer",
+    "date": "2025-11-22",
+    "type": "atomic",
+    "path": "/atomic/humanlayer/2025-11-22-hard-architecture.md",
+    "description": "Comprehensive 7-component polyglot architecture (Go, TypeScript, Rust) implementing daemon-coordinated approval workflow for AI orchestration IDE. 35K LOC across Unix sockets + JSON-RPC + SQLite.",
+    "strategic_context": "Level 1 architectural foundation mapping for understanding HumanLayer's pivot from SDK to IDE platform. Establishes technical ground truth before strategic analysis.",
+    "tags": ["architecture", "go", "typescript", "rust", "daemon", "unix-sockets", "mcp", "claude-code"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22"],
+    "metadata": {
+      "subject": "https://github.com/humanlayer/humanlayer",
+      "loc": 35000,
+      "languages": ["Go", "TypeScript", "Rust"],
+      "components": 7,
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "humanlayer-decision-forensics-2025-11-22",
+    "title": "Decision Forensics: HumanLayer",
+    "date": "2025-11-22",
+    "type": "atomic",
+    "path": "/atomic/humanlayer/2025-11-22-decision-forensics.md",
+    "description": "Git history analysis of 2,442 commits revealing strategic pivot from SDK to IDE (PR #646, Sept 2025). Three eras identified, 5 major architectural pivots, AI-assisted development (Claude contributing 30%+ of code).",
+    "strategic_context": "Level 2 decision analysis documenting the 'Great Pivot' - deletion of 264 files and complete product repositioning. Reveals dogfooding validation pattern and bold strategic execution.",
+    "tags": ["git-history", "strategic-pivot", "sdk-to-ide", "decision-making", "ai-assisted-development", "dogfooding"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-anti-library-2025-11-22"],
+    "metadata": {
+      "commits_analyzed": 2442,
+      "pivot_date": "2025-09-29",
+      "files_deleted": 264,
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "humanlayer-anti-library-2025-11-22",
+    "title": "Anti-Library: HumanLayer",
+    "date": "2025-11-22",
+    "type": "atomic",
+    "path": "/atomic/humanlayer/2025-11-22-anti-library.md",
+    "description": "Negative knowledge extraction from PR #646 deletion of 264 files. Documents 5 failed experiments: multi-framework support, cloud-based approvals, generic abstractions, example-driven docs, and third-party integrations.",
+    "strategic_context": "Level 2 anti-library cataloging roads not taken and constraints discovered. Strategic compression: from 'do everything for everyone' to 'do one thing exceptionally well'.",
+    "tags": ["anti-library", "failed-experiments", "negative-knowledge", "constraints", "strategic-compression"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-decision-forensics-2025-11-22"],
+    "metadata": {
+      "files_deleted": 264,
+      "experiments_cataloged": 5,
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "humanlayer-vision-alignment-2025-11-22",
+    "title": "Vision Alignment: HumanLayer",
+    "date": "2025-11-22",
+    "type": "atomic",
+    "path": "/atomic/humanlayer/2025-11-22-vision-alignment.md",
+    "description": "Vision drift analysis: original thesis (Gen 3 autonomous agents) vs. current reality (Gen 2 orchestration IDE). 75% alignment score. Productive evolution (not drift) - building foundation before tower.",
+    "strategic_context": "Level 3 vision alignment documenting intentional narrowing of scope from infrastructure play to vertical IDE. Sequencing wisdom: Gen 2 must precede Gen 3.",
+    "tags": ["vision-alignment", "gen2-vs-gen3", "strategic-evolution", "sequencing"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22"],
+    "metadata": {
+      "alignment_score": 0.75,
+      "vision_gap": "Gen 3 deferred, not abandoned",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "humanlayer-investigation-2025-11-22",
+    "title": "Process Memory: HumanLayer Investigation",
+    "date": "2025-11-22",
+    "type": "process_memory",
+    "path": "/process_memory/humanlayer/2025-11-22-investigation.md",
+    "description": "Epistemic history of complete Wisdom Ladder investigation. Documents 6 investigative pivots, emotional journey, and strategic insights. Core discovery: PR #646 'Great Purge' as defining moment.",
+    "strategic_context": "Investigation revealed strategic courage - willingness to delete 264 files and bet everything on new direction. Bold pivots (burning ships) force clarity and accelerate execution.",
+    "tags": ["epistemic-history", "investigation-process", "strategic-courage", "bold-pivots"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-hard-architecture-2025-11-22", "humanlayer-decision-forensics-2025-11-22", "humanlayer-anti-library-2025-11-22", "humanlayer-vision-alignment-2025-11-22", "humanlayer-meta-patterns-2025-11-22", "humanlayer-paradigm-extraction-2025-11-22"],
+    "metadata": {
+      "protocol_type": "StrategicDecision",
+      "confidence": 0.95,
+      "phase": "Execution",
+      "duration_hours": 3,
+      "pivots_documented": 6
+    }
+  },
+  {
+    "id": "humanlayer-meta-patterns-2025-11-22",
+    "title": "Meta-Pattern Synthesis: HumanLayer",
+    "date": "2025-11-22",
+    "type": "distillation",
+    "path": "/distillations/humanlayer/2025-11-22-meta-patterns.md",
+    "description": "10 universal meta-patterns extracted: Strategic Compression, Dogfooding Validation, Bold Pivot Protocol, Local-First Principle, Speed-as-Feature, Niche Dominance, Sequencing Wisdom, Technology-for-Problem, Vision-Execution Decoupling, Negative Knowledge Asset.",
+    "strategic_context": "Level 4 synthesis of universal principles transcending specific implementation. Core meta-insight: Strategic compression accelerates execution - narrowing scope paradoxically increases impact.",
+    "tags": ["meta-patterns", "universal-principles", "strategic-compression", "dogfooding", "niche-dominance", "speed-as-moat"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-paradigm-extraction-2025-11-22"],
+    "metadata": {
+      "patterns_identified": 10,
+      "applicability": "universal",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "humanlayer-paradigm-extraction-2025-11-22",
+    "title": "Paradigm Extraction: HumanLayer",
+    "date": "2025-11-22",
+    "type": "distillation",
+    "path": "/distillations/humanlayer/2025-11-22-paradigm-extraction.md",
+    "description": "6 fundamental paradigm shifts: Infrastructure→Experience, Breadth→Depth, Cloud→Edge, Synchronous→Asynchronous, Autonomous→Orchestrated, Features→Velocity. Central paradigm: AI as Orchestra Conductor (not Swiss Army Knife).",
+    "strategic_context": "Level 4 worldview transformation analysis. Mental models shift from 'do everything' to 'do one thing exceptionally well'. Expected 5-10x productivity gains through architectural separation of concerns.",
+    "tags": ["paradigm-shifts", "worldview-transformation", "mental-models", "ai-orchestration", "local-first", "niche-strategy"],
+    "author": "System Owner Agent",
+    "status": "complete",
+    "related": ["humanlayer-investigation-2025-11-22", "humanlayer-meta-patterns-2025-11-22"],
+    "metadata": {
+      "paradigms_identified": 6,
+      "cultural_implications": "high",
+      "adoption_timeline_months": 24,
+      "confidence": 0.95
+    }
+  }
+]
