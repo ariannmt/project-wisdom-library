@@ -1,0 +1,25 @@
+### Investigation Depth
+
+Long-Form (Deep distillation)
+
+### Target Repository URL
+
+https://github.com/basicmachines-co/basic-memory
+
+### Methodology (The Wisdom Ladder)
+
+- [x] Level 1: Hard Architecture Mapping
+- [x] Level 2: Decision Forensics
+- [x] Level 2: Anti-Library Extraction
+- [x] Level 3: Vision Alignment
+- [x] Level 3: Process Memory
+- [x] Level 4: Meta-Pattern Synthesis
+- [x] Level 4: Paradigm Extraction
+
+### Intent / Strategic Context (Optional)
+
+_No response_
+
+### Special Observations (Optional)
+
+_No response_
