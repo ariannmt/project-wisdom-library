@@ -3,7 +3,7 @@
 **Date:** 2025-11-22  
 **Type:** Distillation (Level 4 - Paradigms & Worldview)  
 **Target:** https://github.com/boundaryml/baml  
-**Analyst:** GitHub Copilot
+**Analyst:** GitHub Copilot Coding Agent
 
 ---
 
