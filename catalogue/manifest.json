@@ -1,1 +1,167 @@
-[]
+{
+  "analyses": [
+    {
+      "id": "baml-hard-architecture-2025-11-22",
+      "title": "Hard Architecture Mapping: BAML (Boundary ML)",
+      "date": "2025-11-22",
+      "type": "analysis",
+      "path": "/analyses/baml/2025-11-22-hard-architecture-mapping.md",
+      "description": "Comprehensive technical architecture analysis of BAML's DSL compiler infrastructure, multi-language runtime, and Schema-Aligned Parsing (SAP) algorithm",
+      "tags": ["architecture", "compiler", "dsl", "multi-language", "rust", "level-1"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-decision-forensics-2025-11-22", "baml-paradigm-extraction-2025-11-22"],
+      "strategic_context": "Establishes ground truth of BAML's technical implementation as compiler-first infrastructure",
+      "metadata": {
+        "level": 1,
+        "wisdom_ladder_stage": "Data & Reality",
+        "lines_of_code_analyzed": 100000,
+        "languages_covered": ["rust", "typescript", "python", "ruby", "go"]
+      }
+    },
+    {
+      "id": "baml-decision-forensics-2025-11-22",
+      "title": "Decision Forensics: BAML (Boundary ML)",
+      "date": "2025-11-22",
+      "type": "analysis",
+      "path": "/analyses/baml/2025-11-22-decision-forensics.md",
+      "description": "Investigation of architectural decisions, trade-offs, and strategic rationale behind BAML's design choices",
+      "tags": ["decisions", "trade-offs", "strategy", "rust-choice", "dsl-rationale", "level-2"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-hard-architecture-2025-11-22", "baml-anti-library-2025-11-22"],
+      "strategic_context": "Traces the 'why' behind key decisions: Rust core, DSL syntax, SAP algorithm, multi-language support",
+      "metadata": {
+        "level": 2,
+        "wisdom_ladder_stage": "Information & Context",
+        "decisions_analyzed": 17,
+        "confidence": 0.90
+      }
+    },
+    {
+      "id": "baml-anti-library-2025-11-22",
+      "title": "Anti-Library: BAML (Boundary ML)",
+      "date": "2025-11-22",
+      "type": "analysis",
+      "path": "/analyses/baml/2025-11-22-anti-library.md",
+      "description": "Documentation of what BAML deliberately chose NOT to build - the 'roads not taken' that reveal strategic discipline",
+      "tags": ["anti-library", "negative-knowledge", "strategic-refusals", "constraints", "level-2"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-decision-forensics-2025-11-22", "baml-vision-alignment-2025-11-22"],
+      "strategic_context": "19 major feature categories deliberately not built, revealing focus and architectural integrity",
+      "metadata": {
+        "level": 2,
+        "wisdom_ladder_stage": "Negative Knowledge",
+        "features_not_built": 19,
+        "constraints_identified": 4
+      }
+    },
+    {
+      "id": "baml-vision-alignment-2025-11-22",
+      "title": "Vision Alignment: BAML (Boundary ML)",
+      "date": "2025-11-22",
+      "type": "analysis",
+      "path": "/analyses/baml/2025-11-22-vision-alignment.md",
+      "description": "Assessment of alignment between stated vision and actual implementation, revealing exceptional integrity (93%)",
+      "tags": ["vision", "alignment", "integrity", "honesty", "claims-verification", "level-3"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-anti-library-2025-11-22", "baml-process-memory-2025-11-22"],
+      "strategic_context": "93% vision-reality alignment demonstrates engineering honesty and under-promise/over-deliver strategy",
+      "metadata": {
+        "level": 3,
+        "wisdom_ladder_stage": "Knowledge & Epistemology",
+        "alignment_score": 0.93,
+        "claims_verified": 10,
+        "principles_assessed": 4
+      }
+    }
+  ],
+  "process_memory": [
+    {
+      "id": "baml-investigation-2025-11-22",
+      "title": "Process Memory: BAML Investigation",
+      "date": "2025-11-22",
+      "type": "process_memory",
+      "path": "/process_memory/baml/2025-11-22-investigation.md",
+      "description": "Epistemic history documenting the investigator's journey from skepticism to recognition of BAML as paradigm-shifting infrastructure",
+      "tags": ["process-memory", "epistemic-history", "investigation-journey", "pivotal-insights", "level-3"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-hard-architecture-2025-11-22", "baml-meta-patterns-2025-11-22", "baml-paradigm-extraction-2025-11-22"],
+      "strategic_context": "Documents evolution from 'DSL is overkill' to 'DSL enables multi-language compiler architecture'",
+      "metadata": {
+        "protocol_type": "SystemicInvestigation",
+        "confidence": 0.95,
+        "phase": "Analysis Complete",
+        "duration_minutes": 243,
+        "pivotal_realizations": 9
+      }
+    }
+  ],
+  "distillations": [
+    {
+      "id": "baml-meta-patterns-2025-11-22",
+      "title": "Meta-Pattern Synthesis: BAML",
+      "date": "2025-11-22",
+      "type": "distillation",
+      "path": "/distillations/baml/2025-11-22-meta-patterns.md",
+      "description": "Universal patterns extracted from BAML that apply broadly to software engineering and product development",
+      "tags": ["meta-patterns", "universal-wisdom", "compiler-first", "constraint-exploitation", "level-4"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-paradigm-extraction-2025-11-22", "baml-process-memory-2025-11-22"],
+      "strategic_context": "12 meta-patterns including: Compiler-First Infrastructure, Constraint Exploitation, Anti-Library Strategy, Engineering Honesty as Moat",
+      "metadata": {
+        "level": 4,
+        "wisdom_ladder_stage": "Wisdom & Patterns",
+        "patterns_identified": 12,
+        "applicability": "cross-domain",
+        "confidence": 0.90
+      }
+    },
+    {
+      "id": "baml-paradigm-extraction-2025-11-22",
+      "title": "Paradigm Extraction: BAML",
+      "date": "2025-11-22",
+      "type": "distillation",
+      "path": "/distillations/baml/2025-11-22-paradigm-extraction.md",
+      "description": "Fundamental paradigm shifts revealed by BAML that define post-imperative, compiler-driven AI development",
+      "tags": ["paradigm-shifts", "worldview-changes", "cultural-transformation", "future-of-ai", "level-4"],
+      "author": "GitHub Copilot",
+      "status": "complete",
+      "related": ["baml-meta-patterns-2025-11-22", "baml-vision-alignment-2025-11-22"],
+      "strategic_context": "8 paradigm shifts from strings to structures, control to coercion, features to refusals, representing compiler-first future",
+      "metadata": {
+        "level": 4,
+        "wisdom_ladder_stage": "Paradigms & Worldview",
+        "paradigms_identified": 8,
+        "time_horizon": "2025-2035",
+        "confidence": 0.85
+      }
+    }
+  ],
+  "backlog": [
+    {
+      "id": "baml-paradigm-shift-compiler-first-2025-11-22",
+      "title": "Strategic Shift: Compiler-First AI Development",
+      "date": "2025-11-22",
+      "type": "backlog",
+      "path": "/backlog/baml/2025-11-22-paradigm-shift-compiler-first-ai.md",
+      "description": "Strategic initiative to adopt compiler-first approach for AI applications, moving from prompts-as-strings to prompts-as-code-artifacts",
+      "tags": ["paradigm-shift", "compiler-first", "dsl", "ai-infrastructure", "strategic-backlog"],
+      "author": "GitHub Copilot",
+      "status": "proposed",
+      "related": ["baml-paradigm-extraction-2025-11-22", "baml-meta-patterns-2025-11-22", "baml-investigation-2025-11-22"],
+      "strategic_context": "Positions organization for compiler-driven AI future before it becomes industry standard (2025-2030 time horizon)",
+      "metadata": {
+        "priority": "High",
+        "type": "Strategic Realignment",
+        "target_paradigm": "Compiler-First AI Development",
+        "time_horizon": "5 years (2025-2030)",
+        "confidence": 0.85
+      }
+    }
+  ]
+}
