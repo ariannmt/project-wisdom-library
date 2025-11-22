@@ -1,10 +1,74 @@
 [
   {
     "issue": "58",
-    "target": "\"\"",
-    "depth": "\"\"",
-    "intent": "\"\"",
+    "target": "",
+    "depth": "",
+    "intent": "",
     "artifact": "backlog/unknown/2025-11-21-paradigm-shift-unknown.md",
     "created": "2025-11-21"
+  },
+  {
+    "issue": "memori-intake",
+    "target": "https://github.com/GibsonAI/Memori",
+    "depth": "Long-Form",
+    "intent": "Deep architectural and paradigm analysis of SQL-native AI memory engine",
+    "artifacts": [
+      {
+        "path": "analyses/memori/2025-11-22-hard-architecture-mapping.md",
+        "type": "architecture",
+        "level": 1,
+        "title": "Hard Architecture Mapping: Interceptor Architecture & SQL-Native Memory"
+      },
+      {
+        "path": "analyses/memori/2025-11-22-decision-forensics.md",
+        "type": "forensics",
+        "level": 2,
+        "title": "Decision Forensics: V2 Refactor & Strategic Choices"
+      },
+      {
+        "path": "analyses/memori/2025-11-22-anti-library.md",
+        "type": "anti-library",
+        "level": 2,
+        "title": "Anti-Library: Strategic Refusals Define Positioning"
+      },
+      {
+        "path": "analyses/memori/2025-11-22-vision-alignment.md",
+        "type": "alignment",
+        "level": 3,
+        "title": "Vision Alignment: 88% Reality Match (Exceptional)"
+      },
+      {
+        "path": "process_memory/memori/2025-11-22-investigation.md",
+        "type": "process_memory",
+        "level": 3,
+        "title": "Process Memory: Epistemic Journey Through Memori Investigation"
+      },
+      {
+        "path": "distillations/memori/2025-11-22-meta-patterns.md",
+        "type": "meta-patterns",
+        "level": 4,
+        "title": "Meta-Patterns: 12 Universal Principles from Memori"
+      },
+      {
+        "path": "distillations/memori/2025-11-22-paradigm-extraction.md",
+        "type": "paradigm",
+        "level": 4,
+        "title": "Paradigm Extraction: 5 Fundamental Shifts in AI Memory"
+      },
+      {
+        "path": "backlog/memori/2025-11-22-paradigm-shift-sql-native-memory.md",
+        "type": "strategic_backlog",
+        "level": 4,
+        "title": "Strategic Shift: From Vector-First to SQL-Native Memory"
+      }
+    ],
+    "created": "2025-11-22",
+    "status": "complete",
+    "findings": {
+      "vision_reality_alignment": "88%",
+      "paradigm_shifts": 5,
+      "meta_patterns": 12,
+      "strategic_insights": "SQL-native memory as constraint exploitation; 80-90% cost savings validated; transparent integration as developer empathy; open-core for trust building; AI-native agents (LLMs managing LLMs)"
+    }
   }
 ]
