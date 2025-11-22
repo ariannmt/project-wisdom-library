@@ -1,1 +1,139 @@
-[]
+[
+  {
+    "id": "basic-memory-investigation-2025-11-21",
+    "title": "Basic Memory: Local-First Knowledge Graph with MCP-as-Infrastructure",
+    "type": "comprehensive_investigation",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Long-form Wisdom Ladder investigation (Levels 1-4) revealing paradigm shift from ephemeral chat to persistent AI-human knowledge co-creation",
+    "related": [
+      "basic-memory-arch-2025-11-21",
+      "basic-memory-forensics-2025-11-21",
+      "basic-memory-anti-library-2025-11-21",
+      "basic-memory-vision-2025-11-21",
+      "basic-memory-process-memory-2025-11-21",
+      "basic-memory-paradigms-2025-11-21"
+    ],
+    "metadata": {
+      "codebase_size_loc": 34374,
+      "commit_count": 1062,
+      "investigation_duration_hours": 2.5,
+      "wisdom_ladder_levels": 4,
+      "paradigms_identified": 6,
+      "decisions_analyzed": 8,
+      "rejected_approaches": 8,
+      "alignment_score": 0.968,
+      "confidence_level": 0.95
+    },
+    "tags": ["basic-memory", "mcp", "knowledge-management", "local-first", "paradigm-shift", "production-validated"]
+  },
+  {
+    "id": "basic-memory-arch-2025-11-21",
+    "title": "Hard Architecture Mapping: Basic Memory 7-Layer System",
+    "type": "architecture_mapping",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 1 analysis mapping 7-layer architecture (CLI, Protocol, Services, Repository, Models, Storage, Integrations) of 34K LOC Python system",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "HardArchitectureMapping",
+      "layer_count": 7,
+      "technology_stack": "Python 3.12+, FastAPI, SQLAlchemy, MCP",
+      "production_status": "Live (PyPI + Cloud)",
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["architecture", "python", "fastapi", "mcp", "sqlalchemy"]
+  },
+  {
+    "id": "basic-memory-forensics-2025-11-21",
+    "title": "Decision Forensics: Basic Memory Architectural Evolution",
+    "type": "decision_forensics",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 2 analysis tracing 8 major architectural decisions through 1,062 commits: SPEC-6 stateless, SPEC-20 project sync, v2 API, Postgres support",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "DecisionForensics",
+      "decisions_analyzed": 8,
+      "commit_range": "Initial → 897f43e",
+      "key_specs": ["SPEC-6", "SPEC-20"],
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["decision-forensics", "reactive-architecture", "production-pain", "spec-driven"]
+  },
+  {
+    "id": "basic-memory-anti-library-2025-11-21",
+    "title": "Anti-Library: Basic Memory Rejected Approaches",
+    "type": "anti_library",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 2 analysis documenting 8 rejected approaches (session state, tenant sync, mount workflow, etc.) and 9,000+ lines deleted",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "AntiLibraryExtraction",
+      "rejected_approaches": 8,
+      "lines_removed": 9069,
+      "reverted_commits": 5,
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["anti-library", "deletion-as-design", "complexity-reduction", "negative-knowledge"]
+  },
+  {
+    "id": "basic-memory-vision-2025-11-21",
+    "title": "Vision Alignment: Basic Memory Documentation Integrity",
+    "type": "vision_alignment",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 3 analysis assessing alignment between stated vision and implementation: 96.8% validation (60/62 claims), zero false claims",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "VisionAlignment",
+      "claims_analyzed": 62,
+      "claims_validated": 60,
+      "alignment_score": 0.968,
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["vision-alignment", "documentation-integrity", "production-validated"]
+  },
+  {
+    "id": "basic-memory-process-memory-2025-11-21",
+    "title": "Process Memory: Basic Memory Investigation Epistemic History",
+    "type": "process_memory",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 3 epistemic history documenting 5 pivotal insights during investigation: MCP-as-Infrastructure, Bidirectional Graph, Reactive Architecture, Deletion as Design, Local-First",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "ProcessMemory",
+      "pivots_documented": 5,
+      "insights_extracted": 5,
+      "investigation_duration_hours": 2.5,
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["process-memory", "epistemic-history", "pivotal-insights", "thought-evolution"]
+  },
+  {
+    "id": "basic-memory-paradigms-2025-11-21",
+    "title": "Paradigm Extraction: Basic Memory Universal Principles",
+    "type": "paradigm_extraction",
+    "target_repository": "https://github.com/basicmachines-co/basic-memory",
+    "analysis_date": "2025-11-21",
+    "strategic_context": "Level 4 distillation extracting 6 paradigm shifts and 10 universal patterns applicable beyond this codebase: MCP-as-Infrastructure, Bidirectional Knowledge, Reactive Architecture",
+    "related": ["basic-memory-investigation-2025-11-21"],
+    "metadata": {
+      "protocol_type": "ParadigmExtraction",
+      "paradigms_extracted": 6,
+      "universal_patterns": 10,
+      "system_archetypes": 5,
+      "strategic_value": "High - Predicts MCP-native application patterns",
+      "confidence": 0.95,
+      "phase": "Complete"
+    },
+    "tags": ["paradigms", "universal-patterns", "mcp-native", "knowledge-graphs", "local-first"]
+  }
+]
