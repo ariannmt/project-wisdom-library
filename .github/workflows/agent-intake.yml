@@ -40,6 +40,10 @@ jobs:
         run: |
           python .github/scripts/generate_artifacts.py
 
+      - name: 'Clean temporary files'
+        run: |
+          rm issue_body.txt issue_vars.sh
+
       - name: 'Stage Generated Files'
         run: |
           git add .
