@@ -40,6 +40,9 @@ jobs:
         run: |
           python .github/scripts/generate_artifacts.py
 
+      - name: 'Wait for filesystem'
+        run: sleep 5
+
       - name: 'Clean temporary files'
         run: |
           rm issue_body.txt issue_vars.sh
