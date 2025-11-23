@@ -14,5 +14,42 @@
     "intent": "\"\"",
     "artifact": "backlog/unknown/2025-11-22-paradigm-shift-unknown.md",
     "created": "2025-11-22"
+  },
+  {
+    "issue": "current",
+    "target": "https://github.com/chrismbryant/claude-journal-mcp",
+    "depth": "Long-Form (Deep distillation)",
+    "intent": "Full Wisdom Ladder analysis: Architecture → Forensics → Memory → Paradigms",
+    "subject": "claude-journal-mcp",
+    "paradigms_extracted": [
+      "Cognitive Ergonomics Over AI Capabilities",
+      "AI as Translator (Not Intelligence Layer)",
+      "Designed Forcing Functions for Meta-Cognition",
+      "Behavioral Programming (Capabilities vs Personality)",
+      "Constraints as Design Anchors"
+    ],
+    "artifacts": {
+      "process_memory": "process_memory/claude-journal-mcp/2025-11-23-investigation.md",
+      "architecture_mapping": "atomic/claude-journal-mcp/architecture-mapping.md",
+      "decision_forensics": "atomic/claude-journal-mcp/decision-forensics.md",
+      "paradigm_distillation": "distillations/claude-journal-mcp/paradigm-distillation.md"
+    },
+    "created": "2025-11-23",
+    "key_insights": [
+      "Architectural inversion: AI as interface (translator) vs intelligence (embeddings)",
+      "Human-centered design: Match user cognition, not AI capabilities",
+      "No ML as design anchor (not limitation): Prevents scope creep, enforces focus",
+      "Behavioral programming: Config (markdown) over code for AI personality",
+      "Forcing functions: Reflection over automation (hook prompts Claude to decide)"
+    ],
+    "tags": [
+      "paradigm-shift",
+      "human-centered-ai",
+      "cognitive-ergonomics",
+      "architectural-inversion",
+      "mcp-server",
+      "behavioral-programming",
+      "forcing-functions"
+    ]
   }
 ]
