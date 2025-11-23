@@ -15,7 +15,7 @@
 **Strategic Context:** Issue-driven investigation using Wisdom Ladder methodology  
 **Investigation Depth:** Long-Form (Deep distillation - Levels 1-4)  
 **Target:** https://github.com/chrismbryant/claude-journal-mcp  
-**Trigger:** Intake issue requesting full Wisdom Ladder analysis (Architecture → Forensics → Memory → Wisdom)
+**Trigger:** Intake issue requesting full Wisdom Ladder analysis (Architecture → Forensics → Memory → Paradigms)
 
 **Initial State of Mind:**
 - Curious about the "no ML dependencies" positioning - is this genuine pragmatism or feature poverty?
